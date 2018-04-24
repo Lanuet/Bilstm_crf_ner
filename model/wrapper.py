@@ -1,8 +1,6 @@
 import os
-
 import numpy as np
 from keras.optimizers import Adam, SGD
-
 from model.config import ModelConfig, TrainingConfig
 from model.evaluator import Evaluator
 from model.models import SeqLabeling, KBMiner
@@ -12,7 +10,6 @@ from model.trainer import Trainer
 
 
 class Sequence(object):
-
     config_file = 'config.json'
     weight_file = 'model_weights.h5'
     preprocessor_file = 'preprocessor.pkl'
@@ -51,6 +48,7 @@ class Sequence(object):
         self.kb_miner = KBMiner(self.model_config, self.embeddings, 4)
         self.kb_miner.compile(optimizer=opt, loss='sparse_categorical_crossentropy')
 
+
     def train(self, x_train, kb_words, y_train, x_valid=None, y_valid=None):
         trainer = Trainer(self.model, self.kb_miner,
                           self.training_config,
@@ -62,6 +60,14 @@ class Sequence(object):
         if self.model:
             evaluator = Evaluator(self.model, self.kb_miner, preprocessor=self.p)
             evaluator.eval(x_test, kb_words, y_test)
+        else:
+            raise (OSError('Could not find a model. Call load(dir_path).'))
+
+    def tag(self, sents, kb_words):
+        if self.model:
+            tagger = Tagger(self.model, self.kb_miner, preprocessor=self.p)
+            new_kb, new_words = tagger.tag(sents, kb_words)
+            return new_kb, new_words
         else:
             raise (OSError('Could not find a model. Call load(dir_path).'))
 

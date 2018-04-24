@@ -171,25 +171,10 @@ def main(train_dir, dev_dir, test_dir):
 
     counter = Counter()
 
-
     # num_sens = 0
     read_file(train_dir, counter)
     read_file(dev_dir, counter)
     read_file(test_dir, counter)
-    # file_train_paths = [
-    #     "data/train/%s.muc" % s for s in ["-Doi_song"]
-    # ]
-    # for path in file_train_paths:
-    #     print("read %s" % path)
-    #     num_sens += read_file(path, counter)
-    # file_paths = [
-    #     "data/dev/-Doi_song.muc",
-    #     "data/test/-Doi_song.muc"
-    # ]
-    # for path in file_paths:
-    #     print("read %s" % path)
-    #     read_file(path, counter)
-
 
     print(counter)
     # print("Num sent train: %s" % num_sens)

@@ -146,6 +146,11 @@ class WordPreprocessor(BaseEstimator, TransformerMixin):
         else:
             return word
 
+    def normalize(self, word):
+        word = self._lower(word)
+        word = self._normalize_num(word)
+        return word
+
     def pad_sequence(self, word_ids, pos_ids, char_ids, pre_word_ids, kb_avg, labels=None):
         if labels:
             labels, _ = pad_sequences(labels, 0)

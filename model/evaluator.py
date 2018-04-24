@@ -6,16 +6,20 @@ from model.metrics import F1score
 class Evaluator(object):
 
     def __init__(self,
-                 model,
+                 model, kb_miner,
                  preprocessor=None):
 
         self.model = model
+        self.kb_miner = kb_miner
         self.preprocessor = preprocessor
 
-    def eval(self, x_test, y_test):
+    def eval(self, x_test, kb_words, y_test):
+        kb_words = self.preprocessor.transform_kb(kb_words)
+        kb_avg = self.kb_miner.predict(kb_words)
+        kb_avg = kb_avg.reshape((-1,))
 
         # Prepare test data(steps, generator)
-        train_steps, train_batches = batch_iter(x_test,
+        train_steps, train_batches = batch_iter(x_test, kb_avg,
                                                 y_test,
                                                 batch_size=20,  # Todo: if batch_size=1, eval does not work.
                                                 shuffle=False,

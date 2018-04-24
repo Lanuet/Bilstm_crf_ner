@@ -7,7 +7,7 @@ from model.metrics import get_callbacks
 class Trainer(object):
 
     def __init__(self,
-                 model,
+                 model, kb_miner,
                  training_config,
                  checkpoint_path='',
                  save_path='',
@@ -16,20 +16,25 @@ class Trainer(object):
                  ):
 
         self.model = model
+        self.kb_miner = kb_miner
         self.training_config = training_config
         self.checkpoint_path = checkpoint_path
         self.save_path = save_path
         self.tensorboard = tensorboard
         self.preprocessor = preprocessor
 
-    def train(self, x_train, y_train, x_valid=None, y_valid=None):
+    def train(self, x_train, kb_words, y_train, x_valid=None, y_valid=None):
+
+        kb_words = self.preprocessor.transform_kb(kb_words)
+        kb_avg = self.kb_miner.predict(kb_words)
+        kb_avg = kb_avg.reshape((-1,))
 
         # Prepare training and validation data(steps, generator)
-        train_steps, train_batches = batch_iter(x_train,
+        train_steps, train_batches = batch_iter(x_train, kb_avg,
                                                 y_train,
                                                 self.training_config.batch_size,
                                                 preprocessor=self.preprocessor)
-        valid_steps, valid_batches = batch_iter(x_valid,
+        valid_steps, valid_batches = batch_iter(x_valid, kb_avg,
                                                 y_valid,
                                                 self.training_config.batch_size,
                                                 preprocessor=self.preprocessor)

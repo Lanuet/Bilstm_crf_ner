@@ -5,7 +5,7 @@ class ModelConfig(object):
     """Wrapper class for model hyperparameters."""
 
     def __init__(self, char_emb_size=25, word_emb_size=100, char_lstm_units=25,
-                 word_lstm_units=100, dropout=0.5, char_feature=True, crf=True):
+                 word_lstm_units=100, dropout=0.5, char_feature=True, crf=True, pre_word_feature_size=100):
 
         # Number of unique words in the vocab (plus 2, for <UNK>, <PAD>).
         self.vocab_size = None
@@ -26,6 +26,8 @@ class ModelConfig(object):
 
         # If True, use crf.
         self.crf = crf
+
+        self.pre_word_feature_size = pre_word_feature_size
 
     def save(self, file):
         with open(file, 'w') as f:

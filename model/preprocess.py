@@ -17,6 +17,7 @@ class WordPreprocessor(BaseEstimator, TransformerMixin):
                  lowercase=True,
                  num_norm=True,
                  char_feature=True,
+                 pre_word_feature=True,
                  vocab_init=None,
                  padding=True,
                  return_lengths=True):
@@ -24,6 +25,7 @@ class WordPreprocessor(BaseEstimator, TransformerMixin):
         self.lowercase = lowercase
         self.num_norm = num_norm
         self.char_feature = char_feature
+        self.pre_word_feature = pre_word_feature
         self.padding = padding
         self.return_lengths = return_lengths
         self.vocab_word = vocab_init["word2idx"]
@@ -31,34 +33,7 @@ class WordPreprocessor(BaseEstimator, TransformerMixin):
         self.vocab_tag  = vocab_init["ner2idx"]
         self.vocab_pos = vocab_init["pos2idx"]
 
-    def fit(self, X, y):
-        words = {PAD: 0, UNK: 1}
-        chars = {PAD: 0, UNK: 1}
-        tags  = {PAD: 0}
-
-        for w in set(itertools.chain(*X)) | set(self.vocab_init["word_vocab"]):
-            if not self.char_feature:
-                continue
-            for c in w:
-                if c not in chars:
-                    chars[c] = len(chars)
-
-            w = self._lower(w)
-            w = self._normalize_num(w)
-            if w not in words:
-                words[w] = len(words)
-
-        for t in itertools.chain(*y):
-            if t not in tags:
-                tags[t] = len(tags)
-
-        self.vocab_word = words
-        self.vocab_char = chars
-        self.vocab_tag  = tags
-
-        return self
-
-    def transform(self, X, y=None):
+    def transform(self, X, kb_avg, y=None):
         """transforms input(s)
 
         Args:
@@ -89,13 +64,15 @@ class WordPreprocessor(BaseEstimator, TransformerMixin):
         words = []
         poss = []
         chars = []
+        pre_words = []
         lengths = []
         for sent in X:
             word_ids = []
             pos_ids = []
             char_ids = []
+            pre_words_ids = []
             lengths.append(len(sent))
-            for w, pos in sent:
+            for w, pos, pre_w in sent:
                 if self.char_feature:
                     char_ids.append(self._get_char_ids(w))
 
@@ -108,18 +85,31 @@ class WordPreprocessor(BaseEstimator, TransformerMixin):
                 word_ids.append(word_id)
                 pos_ids.append(self.vocab_pos[pos])
 
+                if pre_w is None:
+                    pre_word_id = self.vocab_word[PAD]
+                else:
+                    pre_w = self._lower(pre_w)
+                    pre_w = self._normalize_num(pre_w)
+                    if pre_w in self.vocab_word:
+                        pre_word_id = self.vocab_word[pre_w]
+                    else:
+                        pre_word_id = self.vocab_word[UNK]
+                pre_words_ids.append(pre_word_id)
+
             words.append(word_ids)
             poss.append(pos_ids)
             if self.char_feature:
                 chars.append(char_ids)
+            if self.pre_word_feature:
+                pre_words.append(pre_words_ids)
 
         if y is not None:
             y = [[self.vocab_tag[t] for t in sent] for sent in y]
 
         if self.padding:
-            sents, y = self.pad_sequence(words, poss, chars, y)
+            sents, y = self.pad_sequence(words, poss, chars, pre_words, kb_avg, y)
         else:
-            sents = [words, poss, chars]
+            sents = [words, poss, chars, pre_words]
 
         if self.return_lengths:
             lengths = np.asarray(lengths, dtype=np.int32)
@@ -127,6 +117,17 @@ class WordPreprocessor(BaseEstimator, TransformerMixin):
             sents.append(lengths)
 
         return (sents, y) if y is not None else sents
+
+    def transform_kb(self, kb_words):
+        kb_words = list(sorted(kb_words.items(), key=lambda x: x[0]))
+        kb_words = [x[1] for x in kb_words]
+        kb_words = [[self.vocab_word.get(w, self.vocab_word[UNK]) for w in words] for words in
+                    kb_words]
+        kb_words, _ = pad_sequences(kb_words, self.vocab_word[PAD])
+        kb_words = np.asarray(kb_words)
+        kb_words = np.expand_dims(kb_words, 0)
+        return kb_words
+
 
     def inverse_transform(self, y):
         indice_tag = {i: t for t, i in self.vocab_tag.items()}
@@ -145,7 +146,7 @@ class WordPreprocessor(BaseEstimator, TransformerMixin):
         else:
             return word
 
-    def pad_sequence(self, word_ids, pos_ids, char_ids, labels=None):
+    def pad_sequence(self, word_ids, pos_ids, char_ids, pre_word_ids, kb_avg, labels=None):
         if labels:
             labels, _ = pad_sequences(labels, 0)
             labels = np.asarray(labels)
@@ -154,15 +155,23 @@ class WordPreprocessor(BaseEstimator, TransformerMixin):
         word_ids, sequence_lengths = pad_sequences(word_ids, 0)
         word_ids = np.asarray(word_ids)
 
-        pos_ids, sequence_lengths = pad_sequences(pos_ids, 0)
+        pos_ids, _ = pad_sequences(pos_ids, 0)
         pos_ids = np.asarray(pos_ids)
+
+        x = [word_ids, pos_ids]
 
         if self.char_feature:
             char_ids, word_lengths = pad_sequences(char_ids, pad_tok=0, nlevels=2)
             char_ids = np.asarray(char_ids)
-            return [word_ids, pos_ids, char_ids], labels
-        else:
-            return [word_ids, pos_ids], labels
+            x.append(char_ids)
+        if self.pre_word_feature:
+            pre_word_ids, _ = pad_sequences(pre_word_ids, 0)
+            pre_word_ids = np.asarray(pre_word_ids)
+            x.append(pre_word_ids)
+
+        kb = np.repeat(np.expand_dims(kb_avg, 0), word_ids.size, 0).reshape((*word_ids.shape, kb_avg.size))
+        x.append(kb)
+        return x, labels
 
     def save(self, file_path):
         joblib.dump(self, file_path)

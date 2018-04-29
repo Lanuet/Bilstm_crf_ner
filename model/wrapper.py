@@ -59,7 +59,12 @@ class Sequence(object):
     def eval(self, x_test, kb_words, y_test):
         if self.model:
             evaluator = Evaluator(self.model, self.kb_miner, preprocessor=self.p)
-            evaluator.eval(x_test, kb_words, y_test)
+            new_words = None
+            while new_words is None or new_words > 0:
+                kb_words, new_words = evaluator.eval(x_test, kb_words, y_test)
+                if new_words > 0:
+                    print("add %d words" % new_words)
+            return kb_words
         else:
             raise (OSError('Could not find a model. Call load(dir_path).'))
 

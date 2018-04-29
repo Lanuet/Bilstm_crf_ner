@@ -1,5 +1,5 @@
 import keras.backend as K
-from keras.layers import Dense, LSTM, Bidirectional, Embedding, Input, Dropout, Lambda
+from keras.layers import Dense, LSTM, Bidirectional, Embedding, Input, Dropout, Lambda, Conv1D, GlobalMaxPool1D
 from keras.layers.merge import Concatenate
 from keras.models import Model
 from keras.optimizers import Adam
@@ -75,11 +75,8 @@ class SeqLabeling(BaseModel):
                                     )(char_ids)
         s = K.shape(char_embeddings)
         char_embeddings = Lambda(lambda x: K.reshape(x, shape=(-1, s[-2], config.char_embedding_size)))(char_embeddings)
-
-        fwd_state = LSTM(config.num_char_lstm_units, return_state=True)(char_embeddings)[-2]
-        bwd_state = LSTM(config.num_char_lstm_units, return_state=True, go_backwards=True)(char_embeddings)[-2]
-        char_embeddings = Concatenate(axis=-1)([fwd_state, bwd_state])
-        # shape = (batch size, max sentence length, char hidden size)
+        char_embeddings = Conv1D(config.num_char_lstm_units, 3, padding="same", activation="tanh")(char_embeddings)
+        char_embeddings = GlobalMaxPool1D()(char_embeddings)
         char_embeddings = Lambda(lambda x: K.reshape(x, shape=[-1, s[1], 2 * config.num_char_lstm_units]))(char_embeddings)
 
         # combine characters and word

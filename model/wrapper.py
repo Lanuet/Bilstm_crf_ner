@@ -58,20 +58,20 @@ class Sequence(object):
 
     def eval(self, x_test, kb_words, y_test):
         if self.model:
-            evaluator = Evaluator(self.model, self.kb_miner, preprocessor=self.p)
-            new_words = None
-            while new_words is None or new_words > 0:
-                kb_words, new_words = evaluator.eval(x_test, kb_words, y_test)
-                if new_words > 0:
-                    print("add %d words" % new_words)
-            return kb_words
+            evaluator = Evaluator(self.model, preprocessor=self.p)
+            evaluator.eval(x_test, y_test)
         else:
             raise (OSError('Could not find a model. Call load(dir_path).'))
 
     def tag(self, sents, kb_words):
         if self.model:
             tagger = Tagger(self.model, self.kb_miner, preprocessor=self.p)
-            new_kb, new_words = tagger.tag(sents, kb_words)
+            new_words = None
+            new_kb = kb_words
+            while new_words is None or new_words > 0:
+                new_kb, new_words = tagger.tag(sents, kb_words)
+                if new_words > 0:
+                    print("added %d words" % new_words)
             return new_kb, new_words
         else:
             raise (OSError('Could not find a model. Call load(dir_path).'))

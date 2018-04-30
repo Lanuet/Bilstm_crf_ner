@@ -34,11 +34,8 @@ def main(train_dir, dev_dir, test_dir, lifelong_dir):
     # lifelong
     for path in glob("%s/*.muc" % lifelong_dir):
         print("testing-lifelong on %s" % path)
-        new_words = 1
         x = load_data_and_labels(path)
-        while new_words > 0:
-            kb_words, new_words = m.tag(x, kb_words)
-            print("add %d words" % new_words)
+        kb_words = m.tag(x, kb_words)
 
     m.eval(x_test, kb_words, y_test)
     json_dump(kb_words, "log/new_kb_words.json")

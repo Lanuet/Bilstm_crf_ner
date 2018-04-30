@@ -22,7 +22,7 @@ class Counter:
         self.ner_tags = set()
         self.kb_words = ObjectDict()
 
-    def update(self, sen):
+    def update(self, sen, update_kb=False):
         self.max_sen_len = max(self.max_sen_len, len(sen))
         if self.max_sen_len == len(sen):
             self.longest_sen = sen
@@ -31,10 +31,11 @@ class Counter:
         self.char_vocab |= sen.char_vocab
         self.pos_tags |= sen.pos_tags
         self.ner_tags |= sen.ner_tags
-        for tag, words in sen.kb_words.items():
-            if tag not in self.kb_words:
-                self.kb_words[tag] = set()
-            self.kb_words[tag] |= words
+        if update_kb:
+            for tag, words in sen.kb_words.items():
+                if tag not in self.kb_words:
+                    self.kb_words[tag] = set()
+                self.kb_words[tag] |= words
 
     def longest_word(self):
         sort = sorted(self.word_vocab, key=lambda w: len(w))
@@ -102,11 +103,11 @@ class Sentence:
         return " ".join(map(str, self.words))
 
 
-def read_file(path, counter):
+def read_file(path, counter, update_kb=False):
     sentences = parse(read(path), ["\n\n", "\n", "\t"])
     for sentence in sentences:
         sentence = Sentence(sentence)
-        counter.update(sentence)
+        counter.update(sentence, update_kb=update_kb)
     print("read %d sentences" % len(sentences))
     return len(sentences)
 
@@ -171,25 +172,9 @@ def main(train_dir, dev_dir, test_dir):
 
     counter = Counter()
 
-
-    # num_sens = 0
-    read_file(train_dir, counter)
+    read_file(train_dir, counter, update_kb=True)
     read_file(dev_dir, counter)
     read_file(test_dir, counter)
-    # file_train_paths = [
-    #     "data/train/%s.muc" % s for s in ["-Doi_song"]
-    # ]
-    # for path in file_train_paths:
-    #     print("read %s" % path)
-    #     num_sens += read_file(path, counter)
-    # file_paths = [
-    #     "data/dev/-Doi_song.muc",
-    #     "data/test/-Doi_song.muc"
-    # ]
-    # for path in file_paths:
-    #     print("read %s" % path)
-    #     read_file(path, counter)
-
 
     print(counter)
     # print("Num sent train: %s" % num_sens)

@@ -17913,7 +17913,6 @@ Quỳnh_Anh	Np	O	B-PER	O
 Một	M	O	B-ORG	O
 Thế_Giới	Np	O	I-ORG	O
 
-
 ﻿Cái	N	O	O	O
 kết	V	O	O	O
 buồn	A	O	O	O
@@ -40610,7 +40609,6 @@ tên	N	O	O	O
 Nguyễn_Quỳnh_Anh	Np	O	B-PER	O
 .	CH	O	O	O
 
-
 ﻿Bài	N	O	O	O
 giảng	V	O	O	O
 đạo_đức	N	O	O	O
@@ -51438,7 +51436,6 @@ chuyên_ngành	N	O	O	O
 mình	P	O	O	O
 lựa_chọn	V	O	O	O
 .	CH	O	O	O
-
 
 ﻿Kịch	N	O	O	O
 bản	N	O	O	O
@@ -95794,7 +95791,6 @@ hạnh_phúc	A	O	O	O
 hơn	R	O	O	O
 .	CH	O	O	O
 
-
 ﻿Từ	N	O	O	O
 1/1/2018	M	O	O	O
 :	CH	O	O	O
@@ -110792,7 +110788,6 @@ như	C	O	O	O
 hiện_nay	N	O	O	O
 .	CH	O	O	O
 
-
 ﻿Giải	N	O	O	O
 mật	A	O	O	O
 mẫu	N	O	O	O
@@ -120186,7 +120181,6 @@ kính	V	O	O	O
 mỗi	M	O	O	O
 ngày	N	O	O	O
 .	CH	O	O	O
-
 
 ﻿NBA	Ny	O	O	O
 2017-18	M	O	O	O
@@ -140318,7 +140312,6 @@ TTVN	Ny	O	B-ORG	O
 |	CH	O	O	O
 14:00	M	O	O	O
 08/02/2018	M	O	O	O
-
 
 ﻿Gala	N	O	O	O
 vũ_kịch	N	O	O	O
@@ -161072,7 +161065,6 @@ về	E	O	O	O
 với	E	O	O	O
 gia_đình	N	O	O	O
 .	CH	O	O	O
-
 
 ﻿Tìm	V	O	O	O
 giải_pháp	N	O	O	O

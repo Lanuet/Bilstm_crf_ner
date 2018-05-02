@@ -16874,7 +16874,6 @@ của	E	O	O	O
 cơ_thể	N	O	O	O
 .	CH	O	O	O
 
-
 Juun_Đăng_Dũng	Np	O	B-PER	O
 ra_mắt	V	O	O	O
 MV	Np	O	O	O
@@ -27156,7 +27155,6 @@ có_thể	R	O	O	O
 chữa	V	O	O	O
 lành	A	O	O	O
 .	CH	O	O	O
-
 
 Nữ_sinh	N	O	O	O
 ĐH	Ny	O	O	O
@@ -42625,7 +42623,6 @@ nói	V	O	O	O
 
 Kiến_Văn	Np	O	B-PER	O
 
-
 Thương_mại_hoá	V	O	O	O
 kết_quả	N	O	O	O
 nghiên_cứu	V	O	O	O
@@ -51967,7 +51964,6 @@ Hy	Np	O	I-PER	O
 /	CH	O	O	O
 VTC	Ny	O	B-ORG	O
 News	Np	O	I-ORG	O
-
 
 Tổng_thống	N	O	O	O
 Pháp	Np	O	B-LOC	O
@@ -65647,7 +65643,6 @@ qua_đời	V	O	O	O
 
 Linh_Lam	Np	O	B-PER	O
 
-
 Nữ	N	O	O	O
 hung_thủ	A	O	O	O
 thừa_nhận	V	O	O	O
@@ -78387,7 +78382,6 @@ Dân	N	O	B-ORG	O
 Việt	Np	O	I-ORG	O
 )	CH	O	O	O
 
-
 Bắn	V	O	O	O
 pháo	N	O	O	O
 qua	V	O	O	O
@@ -90744,7 +90738,6 @@ Tú_Oanh	Np	O	B-PER	O
 Theo	V	O	O	O
 RT	Np	O	B-ORG	O
 
-
 '	CH	O	O	O
 Mắt_thần	N	O	O	O
 '	CH	O	O	O
@@ -101180,7 +101173,6 @@ Australia	Np	O	I-ORG	B-LOC
 .	CH	O	O	O
 
 HOÀI_ĐAN	Np	O	B-PER	O
-
 
 Triển_lãm	V	O	O	O
 tranh	N	O	O	O

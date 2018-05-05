@@ -144,7 +144,7 @@ class F1score(Callback):
         print('\t - p: {:04.2f}'.format(p * 100))
         print('\t - r: {:04.2f}'.format(r * 100))
         print('\t - f1: {:04.2f}'.format(f1 * 100))
-        logs['p'], logs['r'],logs['f1'] = p, r, f1
+        logs['p'], logs['r'], logs['f1'] = p, r, f1
 
     def _calc_f1(self, correct_preds, total_correct, total_preds):
         p = correct_preds / total_preds if correct_preds > 0 else 0

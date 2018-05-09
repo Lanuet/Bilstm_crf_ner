@@ -49,7 +49,11 @@ def load_data_and_labels(filename):
                     words, tags = [], []
             else:
                 word, pos, tag = np.array(line.split('\t'))[[0, 1, 3]]
-                words.append([word, pos])
+                if len(words) > 0:
+                    pre_word = words[-1][0]
+                else:
+                    pre_word = None
+                words.append([word, pos, pre_word])
                 tags.append(tag)
     return np.asarray(sents), np.asarray(labels)
 
@@ -114,7 +118,7 @@ def load_glove(file):
     return model
 
 
-def batch_iter(data, labels, batch_size, shuffle=True, preprocessor=None):
+def batch_iter(data, kb_avg, labels, batch_size, shuffle=True, preprocessor=None):
     num_batches_per_epoch = int((len(data) - 1) / batch_size) + 1
 
     def data_generator():
@@ -137,7 +141,7 @@ def batch_iter(data, labels, batch_size, shuffle=True, preprocessor=None):
                 end_index = min((batch_num + 1) * batch_size, data_size)
                 X, y = shuffled_data[start_index: end_index], shuffled_labels[start_index: end_index]
                 if preprocessor:
-                    yield preprocessor.transform(X, y)
+                    yield preprocessor.transform(X, kb_avg, y)
                 else:
                     yield X, y
 

@@ -197,3 +197,5 @@ log
 embedding/kb_words.json
 embedding/vocabs.json
 embedding/word_embeddings.npy
+embedding/pos_embeddings.npy
+embedding/unk_pos.npy

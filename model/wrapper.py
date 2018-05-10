@@ -63,18 +63,20 @@ class Sequence(object):
         else:
             raise (OSError('Could not find a model. Call load(dir_path).'))
 
-    def tag(self, sents, kb_words, max_retry=3):
+    def tag(self, sents, kb_words, max_retry=0):
         if self.model:
             tagger = Tagger(self.model, self.kb_miner, preprocessor=self.p, lifelong_threshold=3)
             new_words = None
             counter = 0
+            total_new_words = 0
             while new_words is None or new_words > 0:
                 kb_words, new_words = tagger.tag(sents, kb_words)
                 if new_words > 0:
                     counter += 1
-                    print("added %d words" % new_words)
+                    total_new_words += new_words
                 if max_retry is not None and counter > max_retry:
                     break
+            print("added %d words" % total_new_words)
             return kb_words
         else:
             raise (OSError('Could not find a model. Call load(dir_path).'))

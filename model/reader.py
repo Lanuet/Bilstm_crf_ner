@@ -12,30 +12,9 @@ def load_data_and_labels(filename):
 
         The file format is tab-separated values.
         A blank line is required at the end of a sentence.
-
-        For example:
-        ```
-        EU	B-ORG
-        rejects	O
-        German	B-MISC
-        call	O
-        to	O
-        boycott	O
-        British	B-MISC
-        lamb	O
-        .	O
-
-        Peter	B-PER
-        Blackburn	I-PER
-        ...
-        ```
-
     Returns:
         tuple(numpy array, numpy array): data and labels.
 
-    Example:
-        >>> filename = 'conll2003/en/ner/train.txt'
-        >>> data, labels = load_data_and_labels(filename)
     """
     sents, labels = [], []
     with open(filename, "r", encoding="utf8") as f:
@@ -146,3 +125,7 @@ def batch_iter(data, kb_avg, labels, batch_size, shuffle=True, preprocessor=None
                     yield X, y
 
     return num_batches_per_epoch, data_generator()
+
+
+if __name__ == '__main__':
+    x = load_data_and_labels("../data/dantri/The_gioi.txt")

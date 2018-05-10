@@ -72,13 +72,6 @@ class Tagger(object):
 
         Return:
             labels_pred: list of (word, tag) for a sentence
-
-        Example:
-            >>> sent = 'President Obama is speaking at the White House.'
-            >>> print(self.tag(sent))
-            [('President', 'O'), ('Obama', 'PERSON'), ('is', 'O'),
-             ('speaking', 'O'), ('at', 'O'), ('the', 'O'),
-             ('White', 'LOCATION'), ('House', 'LOCATION'), ('.', 'O')]
         """
         kb_avg = self.preprocessor.transform_kb(kb_words)
         kb_avg = self.kb_miner.predict(kb_avg)
@@ -111,10 +104,6 @@ class Tagger(object):
 
         Return:
             labels_pred: dict of entities for a sentence
-
-        Example:
-            sent = 'President Obama is speaking at the White House.'
-            result = {'Person': ['Obama'], 'LOCATION': ['White House']}
         """
         assert isinstance(words, list)
 

@@ -72,12 +72,7 @@ class SeqLabeling(BaseModel):
         pre_word_feature = Concatenate()([pre_word_embeddings, kb_word_avg])
         pre_word_feature = Dense(config.pre_word_feature_size, activation="tanh")(pre_word_feature)
 
-
-        pos_embed_weights = [
-            np.zeros([1, config.pos_vocab_size-1]),  # padding
-            np.identity(config.pos_vocab_size-1)
-        ]
-        pos_embed_weights = np.concatenate(pos_embed_weights)
+        pos_embed_weights = np.load("embedding/pos_embeddings.npy")
         pos_ids = Input(batch_shape=(None, None), dtype='int32')
         pos_embeddings = Embedding(input_dim=pos_embed_weights.shape[0],
                                     output_dim=pos_embed_weights.shape[1],

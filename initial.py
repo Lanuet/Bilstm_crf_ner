@@ -153,8 +153,25 @@ def construct_char_embeddings(char_vocab):
 def construct_pos_embeddings(pos_tags):
     pos2idx = {
         PAD: 0,
-        **{t: i + 1 for i, t in enumerate(pos_tags)}
+        UNK: 1,
+        **{t: i + 2 for i, t in enumerate(pos_tags)}
     }
+
+    if os.path.exists("embedding/unk_pos.npy"):
+        unk_pos = np.load("embedding/unk_pos.npy")
+        if len(unk_pos) != len(pos_tags):
+            unk_pos = np.random.uniform(-0.1, 0.1, len(pos_tags))
+            np.save("embedding/unk_pos.npy", unk_pos)
+    else:
+        unk_pos = np.random.uniform(-0.1, 0.1, len(pos_tags))
+        np.save("embedding/unk_pos.npy", unk_pos)
+
+    pos_embeddings = [
+        np.zeros(len(pos_tags)),  # padding
+        unk_pos,    #
+        *list(np.identity(len(pos_tags))),
+    ]
+    np.save("embedding/pos_embeddings.npy", pos_embeddings)
     return pos2idx
 
 

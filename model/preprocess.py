@@ -86,7 +86,12 @@ class WordPreprocessor(BaseEstimator, TransformerMixin):
                 else:
                     word_id = self.vocab_word[UNK]
                 word_ids.append(word_id)
-                pos_ids.append(self.vocab_pos[pos])
+                if pos in self.vocab_pos:
+                    pos_id = self.vocab_pos[pos]
+                else:
+                    pos_id = self.vocab_pos[UNK]
+                pos_ids.append(pos_id)
+
 
                 if pre_w is None:
                     pre_word_id = self.vocab_word[PAD]

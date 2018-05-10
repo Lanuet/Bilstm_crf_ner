@@ -85,6 +85,7 @@ class Tagger(object):
         print("predicting")
         y_pred = self.model.predict(data, len(sequence_lengths))
         y_pred = np.argmax(y_pred, -1)
+        print("inverse transform")
         y_pred = [self.preprocessor.inverse_transform(y[:l]) for y, l in zip(y_pred, sequence_lengths)]
 
         # print("normalize")

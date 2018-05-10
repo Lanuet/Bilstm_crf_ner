@@ -50118,7 +50118,7 @@ Bắc_Nam	Np	O	I-ORG	O
 :	CH	O	O	O
 1.000.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Công_ty	N	O	B-ORG	O
 TNHH	Ny	O	I-ORG	O
 SX	Np	O	I-ORG	O
@@ -50126,7 +50126,7 @@ Duy_Lợi	Np	O	I-ORG	O
 :	CH	O	O	O
 100.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Công_ty	N	O	B-ORG	O
 CP	Ny	O	I-ORG	O
 tôn	N	O	I-ORG	O
@@ -50144,7 +50144,7 @@ trị_giá	V	O	O	O
 2.000.000.000	M	O	O	O
 đồng	Nu	O	O	O
 )	CH	O	O	O
-;	CH	O	O	O
+
 Tổng_công_ty	N	O	B-ORG	O
 điện_lực	N	O	I-ORG	O
 miền	N	O	I-ORG	B-LOC
@@ -50159,7 +50159,7 @@ City	Np	O	I-ORG	O
 :	CH	O	O	O
 50.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Minh_Tài	Np	O	B-PER	O
 (	CH	O	O	O
 60	M	O	B-LOC	O
@@ -50184,7 +50184,7 @@ tỉnh	N	O	B-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 40	M	O	B-LOC	O
@@ -50207,7 +50207,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 P.	Ny	O	B-LOC	O
@@ -50222,7 +50222,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 Q.	Ny	O	B-LOC	O
@@ -50234,7 +50234,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 100.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bà	Nc	O	O	O
 Ô	Ny	O	B-PER	O
 Thị_Yến_Ngọc	Np	O	I-PER	O
@@ -50252,7 +50252,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Tống_Ngọc_Hai	Np	O	B-PER	O
 (	CH	O	O	O
 202	M	O	B-LOC	O
@@ -50270,7 +50270,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Châu_Thịnh_Viễn	Np	O	B-PER	O
 (	CH	O	O	O
 36	M	O	B-LOC	O
@@ -50287,7 +50287,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 5.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 ông_bà	N	O	O	O
 Thi	Np	O	B-PER	O
 ,	CH	O	O	O
@@ -50301,7 +50301,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 8.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Đinh_Tiến_Đạt	Np	O	B-PER	O
 (	CH	O	O	O
 Q.	Ny	O	B-LOC	O
@@ -50313,7 +50313,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 cụ	Nc	O	O	O
 Phạm_Thị_Thơ	Np	O	B-PER	O
 (	CH	O	O	O
@@ -50326,7 +50326,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 ông	Nc	O	O	O
 Nguyễn_Hữu_Phúc	Np	O	B-PER	O
 (	CH	O	O	O
@@ -50339,7 +50339,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Hồng_Văn_Kỳ	Np	O	B-PER	O
 (	CH	O	O	O
 96	M	O	B-LOC	O
@@ -50354,7 +50354,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 Q.	Ny	O	B-LOC	O
@@ -50366,7 +50366,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 26/2	M	O	B-LOC	O
@@ -50385,7 +50385,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 3.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 4	M	O	B-LOC	O
@@ -50405,7 +50405,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.300.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 307	M	O	B-LOC	O
@@ -50423,7 +50423,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyễn_Thị_Xuân_Hoa	Np	O	B-PER	O
 (	CH	O	O	O
 162	M	O	B-LOC	O
@@ -50438,7 +50438,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Trần_Thị_Toán	Np	O	B-PER	O
 (	CH	O	O	O
 44	M	O	B-LOC	O
@@ -50458,7 +50458,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Lê_Nguyên_Thuỷ	Np	O	B-PER	O
 (	CH	O	O	O
 38	M	O	B-LOC	O
@@ -50476,7 +50476,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 800.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Thi_Thuận	Np	O	B-PER	O
 (	CH	O	O	O
 Q.	Ny	O	B-LOC	O
@@ -50488,7 +50488,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 5.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Mai_Văn_Tâm	Np	O	B-PER	O
 (	CH	O	O	O
 3	M	O	B-LOC	O
@@ -50509,7 +50509,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Hứa_Thị_Ngọc_Liên	Np	O	B-PER	O
 (	CH	O	O	O
 Q.	Ny	O	B-LOC	O
@@ -50521,7 +50521,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 Q.	Ny	O	B-LOC	O
@@ -50533,7 +50533,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 600.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyễn_Thị_Hoa	Np	O	B-PER	O
 (	CH	O	O	O
 1	M	O	B-LOC	O
@@ -50553,7 +50553,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Phạm_Thị_Đức_Hạnh	Np	O	B-PER	O
 (	CH	O	O	O
 48	M	O	B-LOC	O
@@ -50573,7 +50573,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bác	Nc	O	O	O
 Khang	Np	O	B-PER	O
 (	CH	O	O	O
@@ -50589,7 +50589,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 8	M	O	B-LOC	O
@@ -50606,7 +50606,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 Bệnh_viện	N	O	B-ORG	O
@@ -50615,7 +50615,7 @@ Từ_Dũ	Np	O	I-ORG	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 Q.	Ny	O	B-LOC	O
@@ -50627,7 +50627,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Hoàng_Việt_Anh	Np	O	B-PER	O
 (	CH	O	O	O
 41	M	O	B-LOC	O
@@ -50642,7 +50642,7 @@ Bình_Thuận	Np	O	I-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Bùi_Trí_Văn	Np	O	B-PER	O
 (	CH	O	O	O
 266	M	O	B-LOC	O
@@ -50660,7 +50660,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.100.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Trần_Hùng	Np	O	B-PER	O
 (	CH	O	O	O
 P.	Ny	O	B-LOC	O
@@ -50675,7 +50675,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Phùng_Thị_Quỳnh_Yến	Np	O	B-PER	O
 (	CH	O	O	O
 6	M	O	B-LOC	O
@@ -50690,7 +50690,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyễn_Lộc_Phát	Np	O	B-PER	O
 ,	CH	O	O	O
 Nguyễn_Thị_Me	Np	O	B-PER	O
@@ -50704,7 +50704,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bạn_đọc	N	O	O	O
 (	CH	O	O	O
 481	M	O	B-LOC	O
@@ -50719,7 +50719,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 3.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 bác	Nc	O	O	O
 Năm	Np	O	B-PER	O
 (	CH	O	O	O
@@ -50735,7 +50735,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Lê_Xuân_Triều	Np	O	B-PER	O
 (	CH	O	O	O
 6	M	O	B-LOC	O
@@ -50754,7 +50754,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Hồng_Ngọc	Np	O	B-PER	O
 Hải	Np	O	I-PER	O
 (	CH	O	O	O
@@ -50770,7 +50770,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 5.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 cô	Nc	O	O	O
 Anh	Np	O	B-PER	O
 (	CH	O	O	O
@@ -50783,7 +50783,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Trần_Thị_Bửu_Hạnh	Np	O	B-PER	O
 (	CH	O	O	O
 1901	M	O	B-LOC	O
@@ -50803,7 +50803,7 @@ tỉnh	N	O	B-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Lâm_Tiến_Dũng	Np	O	B-PER	O
 (	CH	O	O	O
 Q.	Ny	O	B-LOC	O
@@ -50815,7 +50815,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Trần_Văn_Thơ	Np	O	B-PER	O
 (	CH	O	O	O
 P.	Ny	O	B-LOC	O
@@ -50830,7 +50830,7 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 nhóm	N	O	O	O
 từ_thiện	A	O	O	O
 Hoa_Sen	Np	O	B-ORG	O
@@ -50843,7 +50843,7 @@ Hoa_Sen	Np	O	B-ORG	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 (	CH	O	O	O
 còn	R	O	O	O
 tiếp	V	O	O	O
@@ -50858,7 +50858,7 @@ Binh_Phuong_Chi	Np	O	I-ORG	O
 :	CH	O	O	O
 20.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Cong	V	O	B-ORG	O
 ty	N	O	I-ORG	O
 TNHH	Ny	O	I-ORG	O
@@ -50866,7 +50866,7 @@ Dong_Bach_Viet	Np	O	I-ORG	O
 :	CH	O	O	O
 10.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Cong	V	O	B-ORG	O
 ty	N	O	I-ORG	O
 TNHH	Ny	O	I-ORG	O
@@ -50874,40 +50874,40 @@ Minh_Hoang	Np	O	I-ORG	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thai	Np	O	B-PER	O
 :	CH	O	O	O
 10.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Vo_Thanh_Kham	Np	O	B-PER	O
 :	CH	O	O	O
 10.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 ban	N	O	O	O
 doc	V	O	O	O
 :	CH	O	O	O
 200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 ban	N	O	O	O
 doc	V	O	O	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Do	E	O	B-PER	O
 Thi_Dinh	Np	O	I-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Hong_Trung_Dung	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 (	CH	O	O	O
 còn	R	O	O	O
 tiếp	V	O	O	O
@@ -50917,207 +50917,207 @@ Truong_Dai_Duong	V	O	B-PER	O
 :	CH	O	O	O
 200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Dang_Cong_Khuong	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Pham_Hong_Duc	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Pham_Hong_Hanh_Dung	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Dam_Van_Tuan	Np	O	B-PER	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Van_Tin	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Le_Thi_Hanh	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Loc	Np	O	B-PER	O
 :	CH	O	O	O
 300.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Pham_Kim_Ngan	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Tran_Thanh_Nhan	Np	O	B-PER	O
 :	CH	O	O	O
 100.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thi_Oanh	Np	O	B-PER	O
 :	CH	O	O	O
 600.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 ban	N	O	O	O
 doc	V	O	O	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Van_Hue_Thanh	Np	O	B-PER	O
 :	CH	O	O	O
 400.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thi_Phuc	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 anh	Nc	O	O	O
 Ha_Cong_Binh	Np	O	B-PER	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Tran_Hong_My_Dung	Np	O	B-PER	O
 :	CH	O	O	O
 3.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Bui_Thi_Bich_Nga	Np	O	B-PER	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 ban	N	O	O	O
 doc	V	O	O	O
 :	CH	O	O	O
 100.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thi_Thuy_Trang	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Huu_Hien	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thi_Chau_Phi	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Hoang_Nhut_Lynh	Np	O	B-PER	O
 :	CH	O	O	O
 100.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Pham_Mai_Huong	Np	O	B-PER	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Luong_Thi_Kim_Lien	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Tran_Thi_My_Dung	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Ho_Thi_Kim_Hoa	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Long	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Huu_Hoa	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Huynh_Tai_Tan	Np	O	B-PER	O
 :	CH	O	O	O
 300.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Huynh_Trung_Nhan	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Phung_Thi_Thanh	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Phan_Hong_Chau	Np	O	B-PER	O
 :	CH	O	O	O
 200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Tran_Truc_Duy	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thi_Ha	Np	O	B-PER	O
 :	CH	O	O	O
 300.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Pham_Thi_Yen	Np	O	B-PER	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 ban	N	O	O	O
 doc	V	O	O	O
 :	CH	O	O	O
 200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Pham_Thi_Ngoc_Hanh	Np	O	B-PER	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Duc_Thang	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Huyen_Ton_Nu_Minh	Np	O	B-PER	O
 Bau	Np	O	I-PER	O
 :	CH	O	O	O
 200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Tran_Thi_My_Nhung	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thi_Thuy_Linh	Np	O	B-PER	O
 (	CH	O	O	O
 P.	Ny	O	B-LOC	O
@@ -51132,27 +51132,27 @@ HCM	Np	O	I-LOC	O
 :	CH	O	O	O
 300.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Le_Thi_Minh_Nguyet	Np	O	B-PER	O
 :	CH	O	O	O
 300.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Ngo_Thi_Giang	Np	O	B-PER	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thi_Hieu	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thi_Minh_Chau	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Cong	V	O	B-ORG	O
 ty	N	O	I-ORG	O
 TNHH	Ny	O	I-ORG	O
@@ -51173,47 +51173,47 @@ Lam_Dong	Np	O	I-LOC	O
 :	CH	O	O	O
 12.550.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Tran_Van_Hung	Np	O	B-PER	O
 :	CH	O	O	O
 200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Huy_Tien	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thi_Suong	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Pham_Van_Hieu	Np	O	B-PER	O
 :	CH	O	O	O
 5.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Duong_Hung	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nghiem_Thi_Kim_Nhung	Np	O	B-PER	O
 :	CH	O	O	O
 500.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Ha_Van_Khanh	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Kieu_Thi_Nam	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Truong_Quang_Son	Np	O	B-PER	O
 (	CH	O	O	O
 Cafe	Np	O	B-LOC	O
@@ -51222,24 +51222,18 @@ Cafe	Np	O	B-LOC	O
 :	CH	O	O	O
 2.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Luong_Tien_Loi	Np	O	B-PER	O
 :	CH	O	O	O
 200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Van_Phu	Np	O	B-PER	O
 :	CH	O	O	O
 200.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
+
 Nguyen_Thi_Kim_Thanh	Np	O	B-PER	O
 :	CH	O	O	O
 1.000.000	M	O	O	O
 đồng	Nu	O	O	O
-;	CH	O	O	O
-(	CH	O	O	O
-còn	R	O	O	O
-tiếp	V	O	O	O
-)	CH	O	O	O
-

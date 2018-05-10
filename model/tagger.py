@@ -83,13 +83,10 @@ class Tagger(object):
         sequence_lengths = data[-1]
         sequence_lengths = np.reshape(sequence_lengths, (-1,))
         print("predicting")
-        print(data)
         y_pred = self.model.predict_on_batch(data)
-        print(y_pred)
         y_pred = np.argmax(y_pred, -1)
-        print(y_pred)
+        print("inverse transform")
         y_pred = [self.preprocessor.inverse_transform(y[:l]) for y, l in zip(y_pred, sequence_lengths)]
-        print(y_pred)
 
         # print("normalize")
         sentences = []

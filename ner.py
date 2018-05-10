@@ -33,8 +33,9 @@ def main(train_dir, dev_dir, test_dir, lifelong_dir):
 
     # lifelong
     for path in glob("%s/*.txt" % lifelong_dir):
-        print("testing-lifelong on %s" % path)
+        print("loading %s" % path)
         x = load_data_and_labels(path)[0]
+        print("testing-lifelong on %s" % path)
         kb_words = m.tag(x, kb_words)
 
     m.eval(x_test, kb_words, y_test)

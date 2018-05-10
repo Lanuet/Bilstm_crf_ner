@@ -32,7 +32,7 @@ def main(train_dir, dev_dir, test_dir, lifelong_dir):
     m.train(x_train, kb_words, y_train, x_valid, y_valid)
 
     # lifelong
-    for path in glob("%s/*.muc" % lifelong_dir):
+    for path in glob("%s/*.txt" % lifelong_dir):
         print("testing-lifelong on %s" % path)
         x = load_data_and_labels(path)
         kb_words = m.tag(x, kb_words)

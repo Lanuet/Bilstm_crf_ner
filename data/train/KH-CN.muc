@@ -5273,7 +5273,7 @@ iOS	Np	O	O	O
 10.3.3	M	O	O	O
 nếu	C	O	O	O
 người	N	O	O	O
-dùng không	V	O	O	O
+dùng_không	V	O	O	O
 hài_lòng	V	O	O	O
 với	E	O	O	O
 iOS	Np	O	O	O
@@ -5285,7 +5285,6 @@ về	E	O	O	O
 iOS	Np	O	O	O
 10.3.3	M	O	O	O
 .	CH	O	O	O
-
 
 Hiện_tại	N	O	O	O
 ,	CH	O	B-ORG	O
@@ -7835,10 +7834,10 @@ năm	N	O	O	O
 trước	A	O	O	O
 .	CH	O	O	O
 
-Theo Tân	N	O	O	O
+Theo_Tân	N	O	O	O
 Hoa_Xã	Np	O	B-ORG	O
 ,	CH	O	O	O
- ngày	N	O	O	O
+ngày	N	O	O	O
 nay	P	O	O	O
 hồ	N	O	O	O
 nước_mặn	N	O	O	O
@@ -7924,7 +7923,7 @@ cầu_trục	N	O	I-ORG	O
 NMC	Ny	O	I-ORG	O
 đang	R	O	O	O
 thực	A	O	O	O
-hiện đề	N	O	O	O
+hiện_đề	N	O	O	O
 tài	N	O	O	O
 "	CH	O	O	O
 Nghiên_cứu	V	O	O	O
@@ -7939,7 +7938,7 @@ tự_động	A	O	O	O
 tại	E	O	O	O
 Việt_Nam	Np	O	B-LOC	O
 ”	CH	O	O	O
- cho	V	O	O	O
+cho	V	O	O	O
 biết	V	O	O	O
 ,	CH	O	O	O
 công_ty	N	O	O	O
@@ -7983,7 +7982,7 @@ Qua	E	O	O	O
 cho	V	O	O	O
 thấy	V	O	O	O
 ,	CH	O	O	O
- nhu	N	O	O	O
+nhu	N	O	O	O
 cầu	N	O	O	O
 về	E	O	O	O
 đỗ	V	O	O	O
@@ -8095,7 +8094,7 @@ phổ_biến	V	O	O	O
 tại	E	O	O	O
 TPHC	Ny	O	B-LOC	O
 M.	Np	O	I-LOC	O
- Bởi	Np	O	O	O
+Bởi	Np	O	O	O
 mức	N	O	O	O
 giá	N	O	O	O
 trông	V	O	O	O
@@ -8329,7 +8328,7 @@ là	V	O	O	O
 m	Nu	O	O	O
 .	CH	O	O	O
 
- Được	N	O	O	O
+Được	N	O	O	O
 biết	V	O	O	O
 ,	CH	O	O	O
 con	Nc	O	O	O
@@ -9337,7 +9336,7 @@ chim	N	O	O	O
 ưng	V	O	O	O
 
 Nhiếp_ảnh	V	O	O	O
-gia Villager	Np	O	O	O
+gia_Villager	Np	O	O	O
 Jim	Np	O	B-PER	O
 chụp	V	O	O	O
 được	R	O	O	O
@@ -9611,7 +9610,7 @@ săn	V	O	O	O
 mồi	N	O	O	O
 .	CH	O	O	O
 
- Đồng	N	O	O	O
+Đồng	N	O	O	O
 thời	N	O	O	O
 cũng	R	O	O	O
 là	V	O	O	O
@@ -9739,7 +9738,7 @@ T	Ny	O	O	O
 ,	CH	O	O	O
 VinaPhone	Np	O	B-ORG	O
 cho	E	O	O	O
-biết đang	N	O	O	O
+biết_đang	N	O	O	O
 chuẩn_bị	V	O	O	O
 các	L	O	O	O
 công_việc	N	O	O	O
@@ -9783,7 +9782,7 @@ một	M	O	O	O
 bước_tiến	N	O	O	O
 lớn	A	O	O	O
 của	E	O	O	O
-ngành viễn	N	O	O	O
+ngành_viễn	N	O	O	O
 thông	V	O	O	O
 di_động	N	O	O	O
 tại	E	O	O	O
@@ -9802,7 +9801,7 @@ nhất	A	O	O	O
 ,	CH	O	O	O
 nhà	N	O	O	O
 mạng	N	O	O	O
-này đã	N	O	O	O
+này_đã	N	O	O	O
 tìm_hiểu	V	O	O	O
 và	Cc	O	O	O
 nghiên_cứu	V	O	O	O
@@ -9839,7 +9838,7 @@ mạng	N	O	O	O
 quốc_gia	N	O	O	O
 .	CH	O	O	O
 
- Theo	V	O	O	O
+Theo	V	O	O	O
 kế_hoạch	N	O	O	O
 của	E	O	O	O
 Bộ	N	O	B-ORG	O
@@ -10732,7 +10731,7 @@ lớn	A	O	O	O
 hơn	A	O	O	O
 .	CH	O	O	O
 
- Thuật	N	O	O	O
+Thuật	N	O	O	O
 toán	N	O	O	O
 đã	R	O	O	O
 tính_toán	V	O	O	O
@@ -12393,7 +12392,7 @@ qua	E	O	O	O
 hàng	R	O	O	O
 trăm	M	O	O	O
 đề	N	O	O	O
-tài 	N	O	O	O
+tài_	N	O	O	O
 dự	V	O	O	O
 thi	V	O	O	O
 ,	CH	O	O	O
@@ -13440,7 +13439,7 @@ Hai	M	O	O	O
 khối	N	O	O	O
 đá	N	O	O	O
 vũ	N	O	O	O
-trụ nằm	V	O	O	O
+trụ_nằm	V	O	O	O
 giữa	N	O	O	O
 vành_đai	N	O	O	O
 tiểu	V	O	O	O
@@ -13454,7 +13453,7 @@ này	P	O	O	O
 được	V	O	O	O
 gọi	V	O	O	O
 chung	A	O	O	O
-là 	N	O	O	O
+là_	N	O	O	O
 288	M	O	O	O
 P	Np	O	O	O
 ,	CH	O	O	O
@@ -13471,7 +13470,7 @@ biết	V	O	O	O
 đến	V	O	O	O
 ,	CH	O	O	O
 đồng	N	O	O	O
-thời chúng	N	O	O	O
+thời_chúng	N	O	O	O
 cũng	R	O	O	O
 được	V	O	O	O
 phân_loại	V	O	O	O
@@ -13619,7 +13618,7 @@ phát_hiện	V	O	O	O
 những	L	O	O	O
 dấu_hiệu	N	O	O	O
 mạnh_mẽ	A	O	O	O
-về sự	N	O	O	O
+về_sự	N	O	O	O
 thăng_hoa	V	O	O	O
 của	E	O	O	O
 đá	N	O	O	O
@@ -13630,7 +13629,7 @@ gia_tăng	V	O	O	O
 nhiệt	N	O	O	O
 từ	E	O	O	O
 mặt	N	O	B-LOC	O
-trời –	N	O	I-LOC	O
+trời_–	N	O	I-LOC	O
 tương_tự	A	O	O	O
 như	C	O	O	O
 cách	N	O	O	O
@@ -13726,7 +13725,7 @@ nhóm	N	O	O	O
 nghiên_cứu	V	O	O	O
 đã	R	O	O	O
 kết_luận	V	O	O	O
-rằng 	N	O	O	O
+rằng_	N	O	O	O
 288	M	O	O	O
 P	Np	O	O	O
 đã	R	O	O	O
@@ -19011,7 +19010,7 @@ Việt_Nam	Np	O	B-LOC	O
 thông_báo	V	O	O	O
 rằng	C	O	O	O
 ứng	V	O	O	O
-dụng Faceboo	Np	O	O	O
+dụng_Faceboo	Np	O	O	O
 kMessenger	Np	O	O	O
 của	E	O	O	O
 họ	P	O	O	O
@@ -19023,7 +19022,7 @@ hoặc	Cc	O	O	O
 nhận	V	O	O	O
 tin	N	O	O	O
 nhắn	V	O	O	O
-được và	V	O	O	O
+được_và	V	O	O	O
 một_số	L	O	O	O
 cho	V	O	O	O
 biết	V	O	O	O
@@ -19054,15 +19053,15 @@ dành	V	O	O	O
 cho	E	O	O	O
 hệ	N	O	O	O
 điều	N	O	O	O
-hành Android	Np	O	O	O
+hành_Android	Np	O	O	O
 .	CH	O	O	O
 
- Rất	V	O	O	O
+Rất	V	O	O	O
 có_thể	R	O	O	O
 do	E	O	O	O
 máy_chủ	N	O	O	O
 của	E	O	O	O
-Facebook gặp	Np	O	O	O
+Facebook_gặp	Np	O	O	O
 một_số	L	O	O	O
 trục_trặc	N	O	O	O
 nên	C	O	O	O
@@ -19838,11 +19837,11 @@ chất	N	O	O	O
 
 Điểm	N	O	O	O
 nổi_bật	A	O	O	O
-của Vivo	Np	O	O	O
+của_Vivo	Np	O	O	O
 V	N	O	B-MIC	O
 7	M	O	I-MIC	O
 +	CH	O	I-MIC	O
-là camera	V	O	O	O
+là_camera	V	O	O	O
 trước	N	O	O	O
 lên	V	O	O	O
 đến	T	O	O	O
@@ -19949,7 +19948,7 @@ mạnh_mẽ	A	O	O	O
 
 Ngoài_ra	X	O	O	O
 ,	CH	O	O	O
- Vivo	V	O	B-MIC	O
+Vivo	V	O	B-MIC	O
 V	N	O	I-MIC	O
 7	M	O	I-MIC	O
 +	CH	O	I-MIC	O
@@ -20099,7 +20098,7 @@ thị_trường	N	O	B-MIC	O
 Việt	Np	O	I-MIC	O
 với	E	O	O	O
 mức	N	O	O	O
-giá 	N	O	O	O
+giá_	N	O	O	O
 7.990.000	M	O	O	O
 VNĐ	Nu	O	O	O
 gồm	V	O	O	O
@@ -20263,7 +20262,7 @@ không	R	O	O	O
 hết	V	O	O	O
 .	CH	O	O	O
 
-Trên Group	N	O	O	O
+Trên_Group	N	O	O	O
 Tinh_Tế	Np	O	O	O
 ,	CH	O	O	O
 rất	R	O	O	O
@@ -24118,7 +24117,7 @@ khoa_học_viễn_tưởng	N	O	O	O
 '	CH	O	O	O
 
 -	CH	O	O	O
- Từ	V	O	O	O
+Từ	V	O	O	O
 những	L	O	O	O
 chiếc	Nc	O	O	O
 xe	N	O	O	O
@@ -24155,7 +24154,7 @@ và	Cc	O	O	O
 trải_nghiệm	V	O	O	O
 .	CH	O	O	O
 
- Dưới	N	O	O	O
+Dưới	N	O	O	O
 đây	P	O	O	O
 là	V	O	O	O
 một_số	L	O	O	O
@@ -24250,7 +24249,7 @@ khoa_học_viễn_tưởng	N	O	O	O
 nghe	V	O	O	O
 có_vẻ	X	O	O	O
 kỳ_lạ	A	O	O	O
- ngày	N	O	O	O
+ngày	N	O	O	O
 nay	P	O	O	O
 chắc_chắn	A	O	O	O
 sẽ	R	O	O	O
@@ -24638,7 +24637,7 @@ tin_tặc	N	O	O	O
 gây	V	O	O	O
 ra	V	O	O	O
 các	L	O	O	O
- cuộc	N	O	O	O
+cuộc	N	O	O	O
 tấn_công	V	O	O	O
 tấn_công	V	O	O	O
 đối_với	E	O	O	O
@@ -25190,7 +25189,7 @@ Một_số	L	O	O	O
 các	L	O	O	O
 nhà_khoa_học	N	O	O	O
 làm_việc	V	O	O	O
-tại 	V	O	O	O
+tại_	V	O	O	O
 SENS	Ny	O	B-ORG	O
 Research_Foundation	Np	O	I-ORG	O
 đang	R	O	O	O
@@ -27812,7 +27811,7 @@ game	Nb	O	O	O
 AH	Ny	O	O	O
 -323	M	O	O	O
 
-SoundMax AH	N	O	B-MIC	O
+SoundMax_AH	N	O	B-MIC	O
 -323	M	O	I-MIC	O
 có	V	O	O	O
 ngoại_hình	N	O	O	O
@@ -27843,10 +27842,10 @@ So	V	O	O	O
 với	E	O	O	O
 bộ	N	O	O	O
 sưu	N	O	O	O
-tập tai	N	O	O	O
+tập_tai	N	O	O	O
 nghe	V	O	O	O
 chơi	V	O	O	O
-game giá	V	O	O	O
+game_giá	V	O	O	O
 bình_dân	N	O	O	O
 từng	R	O	O	O
 được	V	O	O	O
@@ -27954,7 +27953,7 @@ AH	Ny	O	O	O
 từng	R	O	O	O
 giới_thiệu	V	O	O	O
 ,	CH	O	O	O
- SoundMax AH	Np	O	B-MIC	O
+SoundMax_AH	Np	O	B-MIC	O
 -323	M	O	I-MIC	O
 cũng	R	O	O	O
 có	V	O	O	O
@@ -29164,7 +29163,7 @@ HDR	Ny	O	O	O
 thực_sự	A	O	O	O
 .	CH	O	O	O
 
- Đó	N	O	O	O
+Đó	N	O	O	O
 là	C	O	O	O
 nhờ	V	O	O	O
 vào	E	O	O	O
@@ -29188,7 +29187,7 @@ iPhone	Np	O	O	O
 Plus	Nu	O	O	O
 .	CH	O	O	O
 
- Màn	V	O	O	O
+Màn	V	O	O	O
 hình	N	O	O	O
 OLED	Ny	O	O	O
 này	P	O	O	O
@@ -29205,7 +29204,7 @@ sâu	A	O	O	O
 hơn	A	O	O	O
 .	CH	O	O	O
 
- Nhờ	A	O	O	O
+Nhờ	A	O	O	O
 đặc_điểm	N	O	O	O
 này	P	O	O	O
 ,	CH	O	O	O
@@ -29422,7 +29421,7 @@ khoá	N	O	O	O
 điện_thoại	N	O	O	O
 .	CH	O	O	O
 
- Tính	N	O	O	O
+Tính	N	O	O	O
 năng	A	O	O	O
 này	P	O	O	O
 sử_dụng	V	O	O	O
@@ -29745,7 +29744,7 @@ mục_tiêu	N	O	O	O
 này	P	O	O	O
 .	CH	O	O	O
 
- Dựa	N	O	O	O
+Dựa	N	O	O	O
 trên	E	O	O	O
 mẫu	N	O	O	O
 thử_nghiệm	V	O	O	O
@@ -30063,7 +30062,7 @@ toàn_cầu	N	O	O	O
 "	CH	O	O	O
 .	CH	O	O	O
 
- Các	V	O	O	O
+Các	V	O	O	O
 tiêu_chuẩn	N	O	O	O
 5G	Ny	O	O	O
 nhanh_chóng	A	O	O	O
@@ -30162,7 +30161,7 @@ ngày	N	O	O	O
 22/9	M	O	O	O
 .	CH	O	O	O
 
- Giới	V	O	O	O
+Giới	V	O	O	O
 chức	N	O	O	O
 Indonesia	Np	O	B-LOC	O
 cảnh_báo	V	O	O	O
@@ -30229,7 +30228,7 @@ Tự_nhiên	Np	O	I-ORG	O
 Indonesia	Np	O	I-ORG	B-LOC
 .	CH	O	O	O
 
- Trong	V	O	O	O
+Trong	V	O	O	O
 ảnh	N	O	O	O
 ,	CH	O	O	O
 khói	N	O	O	O
@@ -30802,7 +30801,7 @@ nước	N	O	O	O
 này	P	O	O	O
 .	CH	O	O	O
 
- Để	N	O	O	O
+Để	N	O	O	O
 chống	V	O	O	O
 làm	V	O	O	O
 giả	A	O	O	O
@@ -30897,7 +30896,7 @@ gật	V	O	O	O
 thay_đổi	V	O	O	O
 từ	E	O	O	O
 màu	N	O	O	O
-tím 	N	O	O	O
+tím_	N	O	O	O
 tím	A	O	O	O
 sang	V	O	O	O
 màu_da_cam	N	O	O	O
@@ -31593,7 +31592,7 @@ Cũng	R	O	O	O
 tại	E	O	O	O
 Triển_lãm	Np	O	O	O
 ,	CH	O	O	O
- kênh	V	O	O	O
+kênh	V	O	O	O
 tin_tức	N	O	O	O
 Online_NewsPicks	Np	O	O	O
 ,	CH	O	O	O
@@ -34145,7 +34144,7 @@ theo	E	O	O	O
 South_China_Morning_Post	Np	O	B-ORG	B-LOC
 .	CH	O	O	O
 
- Các	V	O	O	O
+Các	V	O	O	O
 nha_sĩ	N	O	O	O
 đã	R	O	O	O
 giám_sát	V	O	O	O
@@ -34155,20 +34154,20 @@ trồng_răng	V	O	O	O
 do	E	O	O	O
 robot	Nb	O	O	O
 thực	N	O	O	O
-hiện nhưng	A	O	O	O
+hiện_nhưng	A	O	O	O
 không	R	O	O	O
 hề	T	O	O	O
 can_thiệp	V	O	O	O
 vào	E	O	O	O
 công	N	O	O	O
-việc này	N	O	O	O
+việc_này	N	O	O	O
 .	CH	O	O	O
 
 Theo	V	O	O	O
 Science	Np	O	B-ORG	O
 and	Cc	O	I-ORG	O
 Technology_Daily	Np	O	I-ORG	O
-thì robot	V	O	O	O
+thì_robot	V	O	O	O
 nha_sĩ	N	O	O	O
 này	P	O	O	O
 thực_hiện	V	O	O	O
@@ -34219,7 +34218,7 @@ các	L	O	O	O
 chuyên_gia	N	O	O	O
 Trung_Quốc	Np	O	B-LOC	O
 cho	E	O	O	O
-hay robot	A	O	O	O
+hay_robot	A	O	O	O
 nha_khoa	N	O	O	O
 nói	V	O	O	O
 trên	N	O	O	O
@@ -34240,7 +34239,7 @@ tuyệt_đối	A	O	O	O
 
 Lâu_nay	N	O	O	O
 ,	CH	O	O	O
- robot	V	O	O	O
+robot	V	O	O	O
 dùng	V	O	O	O
 trong	E	O	O	O
 nha_khoa	N	O	O	O
@@ -34249,7 +34248,7 @@ nha_khoa	N	O	O	O
 đưa	V	O	O	O
 vào	R	O	O	O
 thực_nghiệm	V	O	O	O
-nhiều nhưng	V	O	O	O
+nhiều_nhưng	V	O	O	O
 chủ_yếu	A	O	O	O
 để	E	O	O	O
 phụ_trợ	V	O	O	O
@@ -34911,11 +34910,11 @@ Mới_đây	X	O	O	O
 Qualcomm	Np	O	B-ORG	O
 đã	R	O	O	O
 công	V	O	O	O
-bố Zenfone	N	O	O	O
+bố_Zenfone	N	O	O	O
 4	M	O	O	O
 Pro	Np	O	O	O
 là	V	O	O	O
-smartphone đầu	N	O	O	O
+smartphone_đầu	N	O	O	O
 tiên	N	O	O	O
 trên	E	O	O	O
 thế_giới	N	O	O	O
@@ -34976,10 +34975,10 @@ tốt	A	O	O	O
 mở_rộng	V	O	O	O
 phạm_vi	N	O	O	O
 kết	V	O	O	O
-nối với	V	O	O	O
+nối_với	V	O	O	O
 công_nghệ	N	O	O	O
 ăng-ten	V	O	O	O
- Qualcomm	Np	O	B-MIC	O
+Qualcomm	Np	O	B-MIC	O
 TruSignal	Np	O	I-MIC	O
 .	CH	O	O	O
 
@@ -35034,7 +35033,7 @@ Bên	N	O	O	O
 cạnh	N	O	O	O
 đó	P	O	O	O
 ,	CH	O	O	O
-khi kết	V	O	O	O
+khi_kết	V	O	O	O
 nối	V	O	O	O
 với	E	O	O	O
 các	L	O	O	O
@@ -36861,7 +36860,7 @@ mang	V	O	O	O
 một	M	O	O	O
 giải_pháp	N	O	O	O
 thanh_toán	V	O	O	O
-lạ nhưng đơn	N	O	O	O
+lạ_nhưng_đơn	N	O	O	O
 giản	A	O	O	O
 -	CH	O	O	O
 đơn_giản	A	O	O	O

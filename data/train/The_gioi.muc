@@ -279,7 +279,7 @@ bàn_giao	V	O	O	O
 tàu_chiến	N	O	O	O
 Gepard	Np	O	O	O
 ,	CH	O	O	O
- trong	V	O	O	O
+trong	V	O	O	O
 buổi	N	O	O	O
 họp_báo	V	O	O	O
 thường_kỳ	N	O	O	O
@@ -2124,7 +2124,7 @@ làm	V	O	O	O
 chủ	N	O	O	O
 công_nghệ	N	O	O	O
 tên	N	O	O	O
-lửa 	N	O	O	O
+lửa_	N	O	O	O
 phức_tạp	A	O	O	O
 bậc	N	O	O	O
 nhất	A	O	O	O
@@ -2736,7 +2736,7 @@ trên_hết	N	O	O	O
 "	CH	O	O	O
 .	CH	O	O	O
 
-Họ gặp	V	O	O	O
+Họ_gặp	V	O	O	O
 lại	R	O	O	O
 nhau	N	O	O	O
 tại	E	O	O	O
@@ -3112,7 +3112,7 @@ trước_nay	N	O	O	O
 nói	V	O	O	O
 .	CH	O	O	O
 
- Ông	Nc	O	O	O
+Ông	Nc	O	O	O
 Kupchan	Np	O	B-PER	O
 nói	V	O	O	O
 chưa	R	O	O	O
@@ -3540,7 +3540,7 @@ video	Nb	O	O	O
 )	CH	O	O	O
 
 -	CH	O	O	O
- Hãng	N	O	O	O
+Hãng	N	O	O	O
 truyền_thông	N	O	O	O
 Bộ	Np	O	B-ORG	O
 Quốc_phòng	N	O	I-ORG	O
@@ -4694,7 +4694,7 @@ huỷ_bỏ	V	O	O	O
 hạt_nhân	N	O	O	O
 sau	E	O	O	O
 thảm_hoạ	N	O	O	O
- Fukushima	Np	O	B-LOC	O
+Fukushima	Np	O	B-LOC	O
 2011	M	O	O	O
 đến	E	O	O	O
 việc	N	O	O	O
@@ -4952,7 +4952,7 @@ theo	V	O	O	O
 đường_lối	N	O	O	O
 ngày_càng	X	O	O	O
 tách	V	O	O	O
- biệt	A	O	O	O
+biệt	A	O	O	O
 hơn	A	O	O	O
 .	CH	O	O	O
 
@@ -5220,7 +5220,7 @@ Cơ	Np	O	I-ORG	B-ORG
 giáo	N	O	I-ORG	I-ORG
 do	E	O	O	O
 ông	Nc	O	O	O
- Helmut	Np	O	B-PER	O
+Helmut	Np	O	B-PER	O
 Kohl	Np	O	I-PER	O
 lãnh_đạo	N	O	O	O
 và	Cc	O	O	O
@@ -5832,7 +5832,7 @@ gần_gũi	V	O	O	O
 với	E	O	O	O
 gia_đình	N	O	O	O
 ông	Nc	O	O	O
- Shinawatra	Np	O	B-PER	O
+Shinawatra	Np	O	B-PER	O
 ,	CH	O	O	O
 đã	R	O	O	O
 giúp	V	O	O	O
@@ -6200,7 +6200,7 @@ Mỹ	Np	O	B-LOC	O
 Donald_Trump	Np	O	B-PER	O
 .	CH	O	O	O
 
- Một	N	O	O	O
+Một	N	O	O	O
 thông_cáo	V	O	O	O
 báo_chí	N	O	O	O
 của	E	O	O	O
@@ -6748,7 +6748,7 @@ phát_biểu	V	O	O	O
 Các	L	O	O	O
 nước	N	O	O	O
 ký	V	O	O	O
-vào hiệp	N	O	O	O
+vào_hiệp	N	O	O	O
 ước	V	O	O	O
 cấm	V	O	O	O
 vũ_khí_hạt_nhân	N	O	O	O
@@ -8179,7 +8179,7 @@ với	E	O	O	O
 quân_sự	N	O	O	O
 và	Cc	O	O	O
 logic	N	O	O	O
-với chính	N	O	O	O
+với_chính	N	O	O	O
 trị	V	O	O	O
 .	CH	O	O	O
 
@@ -8485,12 +8485,12 @@ năm	N	O	O	O
 .	CH	O	O	O
 
 Sự	N	O	O	O
-cố xảy	V	O	O	O
+cố_xảy	V	O	O	O
 ra	R	O	O	O
 đúng	A	O	O	O
 vào	E	O	O	O
 thời	N	O	O	O
-điểm quan	V	O	O	O
+điểm_quan	V	O	O	O
 hệ	N	O	O	O
 Mỹ-Liên	Np	O	B-LOC	O
 Xô	Np	O	I-LOC	O
@@ -8659,7 +8659,7 @@ tên_lửa	N	O	O	O
 Minuteman	Np	O	O	O
 của	E	O	O	O
 Mỹ	Np	O	B-LOC	O
- đã	V	O	O	O
+đã	V	O	O	O
 rời	V	O	O	O
 bệ_phóng	A	O	O	O
 và	Cc	O	O	O
@@ -10971,7 +10971,7 @@ cuộc	N	O	O	O
 xung_đột	V	O	O	O
 sắc_tộc	N	O	O	O
 ở	E	O	O	O
-bang Rakhine	Np	O	B-LOC	O
+bang_Rakhine	Np	O	B-LOC	O
 thuộc	V	O	O	O
 Myanmar	Np	O	B-LOC	O
 .	CH	O	O	O
@@ -11540,7 +11540,7 @@ Mỹ	Np	O	B-LOC	O
 -	CH	O	O	O
 Mexico	Np	O	B-LOC	O
 đã	R	O	O	O
- vi	V	O	O	O
+vi	V	O	O	O
 phạm	V	O	O	O
 các	L	O	O	O
 luật	N	O	O	O
@@ -14017,7 +14017,7 @@ trên	E	O	O	O
 thế_giới	N	O	O	O
 .	CH	O	O	O
 
-Cùng ngày	N	O	O	O
+Cùng_ngày	N	O	O	O
 ,	CH	O	O	O
 trong	E	O	O	O
 nội_dung	N	O	O	O
@@ -14047,7 +14047,7 @@ có	V	O	O	O
 ”	M	O	O	O
 .	CH	O	O	O
 
- Trước	N	O	O	O
+Trước	N	O	O	O
 đó	P	O	O	O
 ,	CH	O	O	O
 phát_biểu	V	O	O	O
@@ -14361,7 +14361,7 @@ thủ_đô	N	O	B-LOC	O
 Moscow	Np	O	I-LOC	O
 
 Tượng	N	O	O	O
-đài Mikhail	Np	O	O	O
+đài_Mikhail	Np	O	O	O
 Kalashnikov	Np	O	B-PER	O
 tại	E	O	O	O
 Moscow	Np	O	B-LOC	O
@@ -18768,7 +18768,7 @@ hỗ_trợ	V	O	O	O
 
 Video	Np	O	O	O
 :	CH	O	O	O
- Nga	Np	O	B-LOC	O
+Nga	Np	O	B-LOC	O
 hỗ_trợ	V	O	O	O
 không_kích	N	O	O	O
 al-Nusra	Np	O	B-ORG	O
@@ -19876,7 +19876,7 @@ của	E	O	O	O
 một	M	O	O	O
 cuộc	N	O	O	O
 chạy	V	O	O	O
-nước rút	N	O	O	O
+nước_rút	N	O	O	O
 và	Cc	O	O	O
 chúng_tôi	P	O	O	O
 sẽ	R	O	O	O
@@ -20151,7 +20151,7 @@ này	P	O	O	O
 .	CH	O	O	O
 
 Thủ_tướng	N	O	O	O
-Iraq Haider	Np	O	B-LOC	O
+Iraq_Haider	Np	O	B-LOC	O
 al-Abadi	Np	O	B-PER	O
 thậm_chí	R	O	O	O
 còn	R	O	O	O
@@ -20355,7 +20355,7 @@ của	E	O	O	O
 Nga	Np	O	B-LOC	O
 .	CH	O	O	O
 
- Ảnh	N	O	O	O
+Ảnh	N	O	O	O
 :	CH	O	B-ORG	O
 CAND	Ny	O	I-ORG	O
 
@@ -20392,7 +20392,7 @@ bắt_đầu	V	O	O	O
 đóng_tàu	V	O	O	O
 K	Ny	O	O	O
 -560	M	O	O	O
- Severodvinsk	Np	O	O	O
+Severodvinsk	Np	O	O	O
 từ	E	O	O	O
 năm	N	O	O	O
 1993	M	O	O	O
@@ -20415,7 +20415,7 @@ thế_giới	N	O	O	O
 .	CH	O	O	O
 
 Vũ_khí	N	O	O	O
-này có	V	O	O	O
+này_có	V	O	O	O
 chiều	N	O	O	O
 dài	A	O	O	O
 120	M	O	O	O
@@ -20473,7 +20473,7 @@ thông_minh	A	O	O	O
 ”	CH	O	O	O
 .	CH	O	O	O
 
- Vũ	N	O	O	O
+Vũ	N	O	O	O
 khí	N	O	O	O
 quân_sự	N	O	O	O
 này	P	O	O	O
@@ -20583,7 +20583,7 @@ năm	N	O	O	O
 2014	M	O	O	O
 .	CH	O	O	O
 
- Ảnh	N	O	O	O
+Ảnh	N	O	O	O
 :	CH	O	O	O
 Zing_News	Np	O	O	O
 
@@ -20636,7 +20636,7 @@ chính	A	O	O	O
 Tàu_ngầm	N	O	O	O
 K	Ny	O	O	O
 -560	M	O	O	O
- Severodvinsk	Np	O	O	O
+Severodvinsk	Np	O	O	O
 được	V	O	O	O
 Nga	Np	O	B-LOC	O
 hạ_thuỷ	V	O	O	O
@@ -20705,7 +20705,7 @@ sự	N	O	O	O
 điều_khiển	V	O	O	O
 của	E	O	O	O
 con	Nc	O	O	O
-người đồng	N	O	O	O
+người_đồng	N	O	O	O
 thời	N	O	O	O
 chúng	P	O	O	O
 cũng	R	O	O	O
@@ -20723,7 +20723,7 @@ khả_năng	N	O	O	O
 phòng_thủ	V	O	O	O
 .	CH	O	O	O
 
- An	Nc	O	B-PER	O
+An	Nc	O	B-PER	O
 Dương	Np	O	I-PER	O
 (	CH	O	O	O
 T	Ny	O	O	O
@@ -23216,7 +23216,7 @@ biết	V	O	O	O
 thêm	V	O	O	O
 nhân_vật	N	O	O	O
 bí_ẩn	A	O	O	O
-này vẫn	V	O	O	O
+này_vẫn	V	O	O	O
 còn	R	O	O	O
 ở	E	O	O	O
 Thái_Lan	Np	O	B-LOC	O
@@ -24128,7 +24128,7 @@ từng	R	O	O	O
 bị	V	O	O	O
 Israel	Np	O	B-LOC	O
 tấn	Nu	O	O	O
-công 	N	O	O	O
+công_	N	O	O	O
 nhằm	V	O	O	O
 ngăn_chặn	V	O	O	O
 các	L	O	O	O
@@ -24494,7 +24494,7 @@ quân_đội	N	O	O	O
 chính_phủ	N	O	O	O
 Syria	Np	O	B-LOC	O
 ,	CH	O	O	O
-tấn công	N	O	O	O
+tấn_công	N	O	O	O
 bằng	E	O	O	O
 rocket	Nb	O	O	O
 Grad	Np	O	O	O
@@ -24943,7 +24943,7 @@ khi	N	O	O	O
 thực_hiện	V	O	O	O
 cuộc	N	O	O	O
 đảo_chính	V	O	O	O
- bất	V	O	O	O
+bất	V	O	O	O
 thành	V	O	O	O
 ở	E	O	O	O
 Thổ_Nhĩ_Kỳ	Np	O	B-LOC	O
@@ -25181,7 +25181,7 @@ ngày	N	O	O	O
 đã	R	O	O	O
 ủng_hộ	V	O	O	O
 Tổng_thống	N	O	O	O
-Erdogan 	Np	O	B-PER	O
+Erdogan_	Np	O	B-PER	O
 và	Cc	O	O	O
 xem	V	O	O	O
 ông	Nc	O	O	O
@@ -25284,7 +25284,7 @@ Mỹ	Np	O	B-LOC	O
 dung_túng	V	O	O	O
 ”	CH	O	O	O
 cho	E	O	O	O
- lực	N	O	O	O
+lực	N	O	O	O
 lượng	N	O	O	O
 dân_quân	N	O	O	O
 người	N	O	O	O
@@ -26561,7 +26561,7 @@ cho	V	O	O	O
 biết	V	O	O	O
 ,	CH	O	O	O
 quân_đội	N	O	O	O
-Nga đã	Np	O	B-LOC	O
+Nga_đã	Np	O	B-LOC	O
 tấn_công	V	O	O	O
 ác_liệt	A	O	O	O
 nhóm	N	O	O	O
@@ -26803,7 +26803,7 @@ Pháp	Np	O	I-MIC	O
 ,	CH	O	O	O
 đã	R	O	O	O
 trích	V	O	O	O
-dẫn các	V	O	O	O
+dẫn_các	V	O	O	O
 báo	N	O	O	O
 Việt_Nam	Np	O	B-LOC	O
 thời_kỳ	N	O	O	O
@@ -27941,7 +27941,7 @@ TTXVN	Ny	O	B-ORG	O
 
 Tổ_chức	N	O	O	O
 Bác	Np	O	B-ORG	O
-sỹ xuyên	V	O	I-ORG	O
+sỹ_xuyên	V	O	I-ORG	O
 Biên_giới	Np	O	I-ORG	O
 (	CH	O	O	O
 MSF	Ny	O	B-ORG	O
@@ -29437,7 +29437,7 @@ trung_uý	N	O	O	O
 Brett_Parson	Np	O	B-PER	O
 ,	CH	O	O	O
 người	N	O	O	O
-từng phục	V	O	O	O
+từng_phục	V	O	O	O
 vụ	N	O	O	O
 tại	E	O	O	O
 Sở	N	O	B-ORG	O
@@ -29458,7 +29458,7 @@ hơn	A	O	O	O
 năm	N	O	O	O
 .	CH	O	O	O
 
- Ông	N	O	O	O
+Ông	N	O	O	O
 được	V	O	O	O
 công_nhận	V	O	O	O
 trong	N	O	O	O
@@ -29496,7 +29496,7 @@ cạnh	N	O	O	O
 ,	CH	O	O	O
 ông	Nc	O	O	O
 Parson	Np	O	B-PER	O
-còn thuyết	V	O	O	O
+còn_thuyết	V	O	O	O
 trình	V	O	O	O
 tại	E	O	O	O
 nhiều	A	O	O	O
@@ -29712,7 +29712,7 @@ nói	V	O	O	O
 về	E	O	O	O
 cộng_đồng	N	O	O	O
 LGBT	Ny	O	O	O
-cho nên	V	O	O	O
+cho_nên	V	O	O	O
 việc	N	O	O	O
 tiếp_xúc	V	O	O	O
 với	E	O	O	O
@@ -29774,11 +29774,11 @@ chửi_mắng	V	O	O	O
 ...	CH	O	O	O
 )	CH	O	O	O
 ,	CH	O	O	O
- gây	V	O	O	O
+gây	V	O	O	O
 áp_lực	N	O	O	O
 tâm_lý	N	O	O	O
 ,	CH	O	O	O
- cô	N	O	O	O
+cô	N	O	O	O
 lập	V	O	O	O
 ,	CH	O	O	O
 kiểm_soát	V	O	O	O
@@ -29825,10 +29825,10 @@ bị	V	O	O	O
 điếc	V	O	O	O
 .	CH	O	O	O
 
- Những	V	O	O	O
+Những	V	O	O	O
 nhân_chứng	N	O	O	O
 là	V	O	O	O
-người không	N	O	O	O
+người_không	N	O	O	O
 thể	R	O	O	O
 giao_tiếp	V	O	O	O
 được	R	O	O	O
@@ -29859,13 +29859,13 @@ người	N	O	O	O
 cảnh_sát	N	O	O	O
 là	V	O	O	O
 đồng_tính	N	O	O	O
-nữ đến	N	O	O	O
+nữ_đến	N	O	O	O
 tiếp_cận	V	O	O	O
 và	Cc	O	O	O
 điều_tra	V	O	O	O
 .	CH	O	O	O
 
- Và	N	O	O	O
+Và	N	O	O	O
 chỉ	R	O	O	O
 trong	E	O	O	O
 1	M	O	O	O
@@ -29881,10 +29881,10 @@ thúc	V	O	O	O
 ác	A	O	O	O
 .	CH	O	O	O
 
- Điều	N	O	O	O
+Điều	N	O	O	O
 đó	P	O	O	O
 đã	R	O	O	O
-khiến cho	V	O	O	O
+khiến_cho	V	O	O	O
 ông	N	O	O	O
 nhận	V	O	O	O
 ra	R	O	O	O
@@ -30057,7 +30057,7 @@ cô	N	O	O	O
 ấy	P	O	O	O
 .	CH	O	O	O
 
- Anh	N	O	O	O
+Anh	N	O	O	O
 ta	P	O	O	O
 bị	V	O	O	O
 nghiện	V	O	O	O
@@ -30124,7 +30124,7 @@ Kết_thúc	V	O	O	O
 buổi	N	O	O	O
 chia_sẻ	V	O	O	O
 ,	CH	O	O	O
- trung	V	O	O	O
+trung	V	O	O	O
 uý	N	O	O	O
 Brett_Parson	Np	O	B-PER	O
 cho	V	O	O	O
@@ -30141,7 +30141,7 @@ người	N	O	O	O
 yếm_thế	N	O	O	O
 .	CH	O	O	O
 
- Họ	N	O	O	O
+Họ	N	O	O	O
 không	R	O	O	O
 quá	R	O	O	O
 tin_tưởng	V	O	O	O
@@ -30293,13 +30293,13 @@ lòng	N	O	O	O
 hơn	A	O	O	O
 .	CH	O	O	O
 
-Để chấm	N	O	O	O
+Để_chấm	N	O	O	O
 dứt	V	O	O	O
 tình_trạng	N	O	O	O
 bạo_lực	V	O	O	O
 với	E	O	O	O
 cộng_đồng	N	O	O	O
-LBGT thì	Np	O	O	O
+LBGT_thì	Np	O	O	O
 cần	V	O	O	O
 có	V	O	O	O
 sự	N	O	O	O
@@ -30311,7 +30311,7 @@ người	N	O	O	O
 trong	E	O	O	O
 cộng_đồng	N	O	O	O
 và	Cc	O	O	O
-các cảnh	N	O	O	O
+các_cảnh	N	O	O	O
 sát	A	O	O	O
 ,	CH	O	O	O
 báo_giới	N	O	O	O
@@ -30353,7 +30353,7 @@ tổ_chức	V	O	O	O
 Viet_Pride	Np	O	B-MIC	O
 Hà_Nội	Np	O	I-MIC	O
 2017	M	O	I-MIC	O
- gồm	Nu	O	O	O
+gồm	Nu	O	O	O
 đại_diện	N	O	O	O
 từ	E	O	O	O
 nhiều	A	O	O	O
@@ -32213,7 +32213,7 @@ thấy	V	O	O	O
 ”	CH	O	O	O
 ,	CH	O	O	O
 hãng	N	O	O	O
-tin AP cho	Np	O	O	O
+tin_AP_cho	Np	O	O	O
 biết	V	O	O	O
 .	CH	O	O	O
 
@@ -33171,8 +33171,8 @@ Hezbollah	Np	O	B-ORG	O
 và	Cc	O	O	O
 Syria	Np	O	B-LOC	O
 ,	CH	O	O	O
- ABC	Ny	O	B-ORG	O
-News dẫn	Np	O	I-ORG	O
+ABC	Ny	O	B-ORG	O
+News_dẫn	Np	O	I-ORG	O
 thông_tin	V	O	O	O
 từ	E	O	O	O
 cố_vấn	N	O	O	O
@@ -33324,38 +33324,6 @@ thoả_thuận	V	O	O	O
 hay	C	O	O	O
 không	R	O	O	O
 .	CH	O	O	O
-
-_	N	O	O	O
-_	M	O	O	O
-_	CH	O	O	O
-_	M	O	O	O
-_	Nu	O	O	O
-_	M	O	O	O
-_	CH	O	O	O
-_	M	O	O	O
-_	Nu	O	O	O
-_	M	O	O	O
-_	CH	O	O	O
-_	M	O	O	O
-_	Nu	O	O	O
-_	M	O	O	O
-_	CH	O	O	O
-_	M	O	O	O
-_	Nu	O	O	O
-_	M	O	O	O
-_	CH	O	O	O
-_	M	O	O	O
-_	Nu	O	O	O
-_	M	O	O	O
-_	CH	O	O	O
-_	M	O	O	O
-_	Nu	O	O	O
-_	M	O	O	O
-_	CH	O	O	O
-_	M	O	O	O
-_	Nu	O	O	O
-_	CH	O	O	O
-_	CH	O	O	O
 
 128	M	O	O	O
 nước	N	O	O	O

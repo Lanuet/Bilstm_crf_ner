@@ -57,8 +57,7 @@ tuần	N	_	_		_
 4/3	M	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Thiếu	Np	_	_		_
+Thiếu	Np	_	_		_
 70	M	_	_		_
 triệu	M	_	_		_
 đồng	Nu	_	_		_
@@ -433,8 +432,7 @@ tuần	N	_	_		_
 4/3	M	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Hai	Np	_	_		_
+Hai	Np	_	_		_
 bố_con	N	_	_		_
 anh	Nc	_	_		_
 Vũ	Np	_	_		_
@@ -451,8 +449,8 @@ tỉ	M	_	_		_
 giúp_đỡ	V	_	_		_
 từ	E	_	_		_
 bạn	N	_	_		_
-đọc 	N	_	_		_
- Nghẹn	Np	_	_		_
+đọc_	N	_	_		_
+Nghẹn	Np	_	_		_
 ngào	V	_	_		_
 cảnh	N	_	_		_
 hai	M	_	_		_
@@ -1823,7 +1821,7 @@ về	E	_	_		_
 ”	N	_	_		_
 .	CH	_	_		_
 
- Cha	N	_	_		_
+Cha	N	_	_		_
 bị	V	_	_		_
 tai_biến	V	_	_		_
 ,	CH	_	_		_
@@ -2126,8 +2124,7 @@ hôn_mê	V	_	_		_
 bệnh_viện	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Trao	Np	_	_		_
+Trao	Np	_	_		_
 gần	A	_	_		_
 99	M	_	_		_
 triệu	M	_	_		_
@@ -2138,8 +2135,8 @@ cô_giáo	N	_	_		_
 gặp	V	_	_		_
 nạn	N	_	_		_
 hôn	V	_	_		_
-mê 	N	_	_		_
- Quặn	Np	_	_		_
+mê_	N	_	_		_
+Quặn	Np	_	_		_
 thắt	V	_	_		_
 trước	E	_	_		_
 tình_cảnh	N	_	_		_
@@ -3490,8 +3487,7 @@ tiếp_tục	V	_	_		_
 điều_trị	V	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Tiếng	Np	_	_		_
+Tiếng	Np	_	_		_
 khóc	V	_	_		_
 xé	V	_	_		_
 lòng	N	_	_		_
@@ -3903,8 +3899,7 @@ tuần	N	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Quặn	Np	_	_		_
+Quặn	Np	_	_		_
 thắt	V	_	_		_
 trước	E	_	_		_
 tình_cảnh	N	_	_		_
@@ -4564,8 +4559,6 @@ Thừa_Thiên_Huế	Np	_	_		_
 )	CH	_	_		_
 .	CH	_	_		_
 
- 	M	_	_		_
- 	CH	_	_		_
 5	M	_	_		_
 con_thơ	N	_	_		_
 khốn_khó	A	_	_		_
@@ -9578,8 +9571,7 @@ cho	E	_	_		_
 cháu	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Xót	Np	_	_		_
+Xót	Np	_	_		_
 xa	A	_	_		_
 bé	N	_	_		_
 11	M	_	_		_
@@ -12608,8 +12600,7 @@ Nagoya_Taiko_Lions_Club	Np	_	_		_
 tài_trợ	V	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Tưng	Np	_	_		_
+Tưng	Np	_	_		_
 bừng	V	_	_		_
 ngày	N	_	_		_
 hội	N	_	_		_
@@ -16153,8 +16144,7 @@ Quảng_Bình	Np	_	_		_
 )	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Phòng	Np	_	_		_
+Phòng	Np	_	_		_
 học	V	_	_		_
 đổ	V	_	_		_
 sập	V	_	_		_
@@ -16919,8 +16909,7 @@ hiểm_nghèo	A	_	_		_
 "	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Cha	Np	_	_		_
+Cha	Np	_	_		_
 mẹ	N	_	_		_
 già	A	_	_		_
 kiệt_sức	A	_	_		_
@@ -21511,8 +21500,7 @@ mơ	V	_	_		_
 đến	V	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Bố	Np	_	_		_
+Bố	Np	_	_		_
 mất	V	_	_		_
 ,	CH	_	_		_
 mẹ	N	_	_		_
@@ -22374,8 +22362,6 @@ trước	E	_	_		_
 đó	P	_	_		_
 .	CH	_	_		_
 
- 	I	_	_		_
- 	CH	_	_		_
 "	CH	_	_		_
 Cha	N	_	_		_
 mất	V	_	_		_
@@ -22791,8 +22777,7 @@ Báo	N	_	_		_
 Dân_trí	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Hơn	Np	_	_		_
+Hơn	Np	_	_		_
 44	M	_	_		_
 triệu	M	_	_		_
 đồng	Nu	_	_		_
@@ -22806,8 +22791,8 @@ quỵ	N	_	_		_
 vì	E	_	_		_
 cha	N	_	_		_
 bệnh	N	_	_		_
-nặng 	N	_	_		_
- Con	Np	_	_		_
+nặng_	N	_	_		_
+Con	Np	_	_		_
 gái	N	_	_		_
 ngã	V	_	_		_
 quỵ	V	_	_		_
@@ -26660,8 +26645,7 @@ Quỹ	Np	_	_		_
 nhân_ái	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Người	Np	_	_		_
+Người	Np	_	_		_
 cha	N	_	_		_
 sống_dở_chết_dở	X	_	_		_
 bên	N	_	_		_
@@ -27149,8 +27133,7 @@ bạn_đọc	N	_	_		_
 Dân_trí	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Mẹ	Np	_	_		_
+Mẹ	Np	_	_		_
 bỏ	V	_	_		_
 đi	V	_	_		_
 ,	CH	_	_		_
@@ -27771,8 +27754,6 @@ có	V	_	_		_
 chữa_trị	V	_	_		_
 .	CH	_	_		_
 
- 	I	_	_		_
- 	CH	_	_		_
 "	CH	_	_		_
 Cái	Nc	_	_		_
 chết	V	_	_		_
@@ -30254,8 +30235,7 @@ mục_nát	A	_	_		_
 chia_sẻ	V	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Mẹ	Np	_	_		_
+Mẹ	Np	_	_		_
 mất	V	_	_		_
 vì	E	_	_		_
 ung_thư	N	_	_		_
@@ -33622,8 +33602,7 @@ Quỹ_Nhân	Np	_	_		_
 ái	V	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Bệnh	Np	_	_		_
+Bệnh	Np	_	_		_
 nhân	V	_	_		_
 ghép	V	_	_		_
 tim	N	_	_		_
@@ -33632,8 +33611,8 @@ nhất	A	_	_		_
 Việt_Nam	Np	_	_		_
 được	V	_	_		_
 ra	V	_	_		_
-viện 	N	_	_		_
- Gần	Np	_	_		_
+viện_	N	_	_		_
+Gần	Np	_	_		_
 294	M	_	_		_
 triệu	M	_	_		_
 đồng	Nu	_	_		_
@@ -33642,8 +33621,8 @@ với	E	_	_		_
 bé	N	_	_		_
 Đạt	Np	_	_		_
 ghép	V	_	_		_
-tim 	N	_	_		_
- Tình	Np	_	_		_
+tim_	N	_	_		_
+Tình	Np	_	_		_
 cảnh	N	_	_		_
 nguy_kịch	A	_	_		_
 của	E	_	_		_
@@ -34585,8 +34564,7 @@ gia_đình	N	_	_		_
 Võ_Đồng_Thinh	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Không	Np	_	_		_
+Không	Np	_	_		_
 tiền	N	_	_		_
 phẫu_thuật	V	_	_		_
 ,	CH	_	_		_
@@ -35064,8 +35042,7 @@ tiền	N	_	_		_
 đồng	Nu	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Tình	Np	_	_		_
+Tình	Np	_	_		_
 cảnh	N	_	_		_
 khốn_khó	A	_	_		_
 của	E	_	_		_
@@ -38763,8 +38740,7 @@ bạn_đọc	N	_	_		_
 Dân_trí	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Hơn	Np	_	_		_
+Hơn	Np	_	_		_
 161	M	_	_		_
 triệu	M	_	_		_
 đồng	Nu	_	_		_
@@ -38779,8 +38755,8 @@ bỏ_rơi	V	_	_		_
 ,	CH	_	_		_
 mẹ	N	_	_		_
 mất	V	_	_		_
-tích 	N	_	_		_
- Thương	Np	_	_		_
+tích_	N	_	_		_
+Thương	Np	_	_		_
 bé	N	_	_		_
 2	M	_	_		_
 tuổi	N	_	_		_
@@ -39591,8 +39567,7 @@ tết	N	_	_		_
 đầy	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Ánh	Np	_	_		_
+Ánh	Np	_	_		_
 mắt	N	_	_		_
 đáng	V	_	_		_
 thương	V	_	_		_
@@ -39909,8 +39884,7 @@ sống	V	_	_		_
 thực_vật	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Con	Np	_	_		_
+Con	Np	_	_		_
 gái	N	_	_		_
 ngã	V	_	_		_
 quỵ	V	_	_		_
@@ -41317,8 +41291,7 @@ buôn	N	_	_		_
 Tơng_Lia	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Thương	Np	_	_		_
+Thương	Np	_	_		_
 bé	N	_	_		_
 gái	N	_	_		_
 Ê	Ny	_	_		_
@@ -42694,8 +42667,7 @@ tỉnh	N	_	_		_
 Cà_Mau	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Xót	Np	_	_		_
+Xót	Np	_	_		_
 xa	A	_	_		_
 cô	Nc	_	_		_
 gái	N	_	_		_
@@ -43204,8 +43176,8 @@ là	V	_	_		_
 hơn	A	_	_		_
 231	M	_	_		_
 triệu	M	_	_		_
-đồng 	N	_	_		_
- Quằn	Np	_	_		_
+đồng_	N	_	_		_
+Quằn	Np	_	_		_
 quại	V	_	_		_
 với	E	_	_		_
 khối_u	N	_	_		_
@@ -43719,8 +43691,7 @@ TP	Ny	_	_		_
 Cần_Thơ	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Báo	Np	_	_		_
+Báo	Np	_	_		_
 tặng	V	_	_		_
 quà	N	_	_		_
 trung_thu	N	_	_		_
@@ -43731,8 +43702,8 @@ họ	P	_	_		_
 Nhân	Np	_	_		_
 ở	V	_	_		_
 Cần	V	_	_		_
-Thơ 	Np	_	_		_
- Hội	Np	_	_		_
+Thơ_	Np	_	_		_
+Hội	Np	_	_		_
 cha_mẹ	N	_	_		_
 Nhân_ái	Np	_	_		_
 tặng	V	_	_		_
@@ -46905,8 +46876,8 @@ cụ	Nc	_	_		_
 và	Cc	_	_		_
 3	M	_	_		_
 cháu	N	_	_		_
-nhỏ 	V	_	_		_
- Thương	Np	_	_		_
+nhỏ_	V	_	_		_
+Thương	Np	_	_		_
 3	M	_	_		_
 cháu	N	_	_		_
 nhỏ	A	_	_		_
@@ -48843,8 +48814,6 @@ tỉnh	N	_	_		_
 Sóc_Trăng	Np	_	_		_
 .	CH	_	_		_
 
- 	M	_	_		_
- 	CH	_	_		_
 2	M	_	_		_
 trẻ	N	_	_		_
 sơ_sinh	A	_	_		_
@@ -50773,8 +50742,7 @@ trắng_tay	A	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Lửa	Np	_	_		_
+Lửa	Np	_	_		_
 thiêu	V	_	_		_
 rụi	V	_	_		_
 căn	Nc	_	_		_
@@ -51068,8 +51036,7 @@ năm	N	_	_		_
 2018	M	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Cha	Np	_	_		_
+Cha	Np	_	_		_
 mẹ	N	_	_		_
 nghèo	A	_	_		_
 đau_đớn	A	_	_		_
@@ -51599,8 +51566,7 @@ tỉnh	N	_	_		_
 Bạc_Liêu	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Ánh	Np	_	_		_
+Ánh	Np	_	_		_
 mắt	N	_	_		_
 đáng	V	_	_		_
 thương	V	_	_		_
@@ -53761,8 +53727,7 @@ ung_thư	N	_	_		_
 máu	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Mẹ	Np	_	_		_
+Mẹ	Np	_	_		_
 khóc	V	_	_		_
 hết	V	_	_		_
 nước_mắt	N	_	_		_
@@ -55480,8 +55445,7 @@ sớm	A	_	_		_
 cuộc_sống	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Mất	Np	_	_		_
+Mất	Np	_	_		_
 3	M	_	_		_
 đứa	Nc	_	_		_
 con	N	_	_		_
@@ -55897,8 +55861,7 @@ tỉnh	N	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	CH	_	_		_
- Nghẹn	V	_	_		_
+Nghẹn	V	_	_		_
 lòng	N	_	_		_
 trước	E	_	_		_
 tình_cảnh	N	_	_		_
@@ -56828,8 +56791,7 @@ và	Cc	_	_		_
 tuần	N	_	_		_
 01	M	_	_		_
 tháng	N	_	_		_
-01/2018. 	M	_	_		_
- 	CH	_	_		_
+01/2018._	M	_	_		_
 "	CH	_	_		_
 Nhiều	A	_	_		_
 khi	N	_	_		_
@@ -59379,8 +59341,7 @@ cháu	N	_	_		_
 nhỏ	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Thương	Np	_	_		_
+Thương	Np	_	_		_
 3	M	_	_		_
 cháu	N	_	_		_
 nhỏ	A	_	_		_
@@ -61504,8 +61465,7 @@ tiền	N	_	_		_
 giúp_đỡ	V	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Thương	Np	_	_		_
+Thương	Np	_	_		_
 bé	N	_	_		_
 2	M	_	_		_
 tuổi	N	_	_		_
@@ -62160,8 +62120,6 @@ chị	Nc	_	_		_
 Võ_Thị_Xuân	Np	_	_		_
 .	CH	_	_		_
 
- 	I	_	_		_
- 	CH	_	_		_
 "	CH	_	_		_
 Cơm	N	_	_		_
 tôi	P	_	_		_
@@ -64565,8 +64523,8 @@ mắc	V	_	_		_
 bệnh	N	_	_		_
 suy	V	_	_		_
 thận	N	_	_		_
-mãn 	N	_	_		_
- Thương	Np	_	_		_
+mãn_	N	_	_		_
+Thương	Np	_	_		_
 cậu	Nc	_	_		_
 sinh_viên	N	_	_		_
 mồ_côi	A	_	_		_
@@ -64851,8 +64809,7 @@ triệu	M	_	_		_
 đồng	Nu	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Quằn	Np	_	_		_
+Quằn	Np	_	_		_
 quại	V	_	_		_
 với	E	_	_		_
 khối_u	N	_	_		_
@@ -67464,7 +67421,7 @@ rồi	R	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- Đây	N	_	_		_
+Đây	N	_	_		_
 là	V	_	_		_
 số	N	_	_		_
 tiền	N	_	_		_
@@ -67479,8 +67436,7 @@ tuần	N	_	_		_
 2	M	_	_		_
 của	E	_	_		_
 tháng	N	_	_		_
-1/2018. 	M	_	_		_
- 	Nu	_	_		_
+1/2018._	M	_	_		_
 "	CH	_	_		_
 Cha	N	_	_		_
 mất	V	_	_		_
@@ -67904,8 +67860,7 @@ mẹ_con	N	_	_		_
 em	N	_	_		_
 .	CH	_	_		_
 
- 	CH	_	_		_
- Nghẹn	V	_	_		_
+Nghẹn	V	_	_		_
 lòng	N	_	_		_
 trước	E	_	_		_
 tình_cảnh	N	_	_		_
@@ -74690,8 +74645,7 @@ biết	V	_	_		_
 gì	P	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Nổ	Np	_	_		_
+Nổ	Np	_	_		_
 gas	Nb	_	_		_
 kinh_hoàng	V	_	_		_
 ,	CH	_	_		_
@@ -75423,8 +75377,7 @@ con	Nc	_	_		_
 trai	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Hơn	Np	_	_		_
+Hơn	Np	_	_		_
 143	M	_	_		_
 triệu	M	_	_		_
 đồng	Nu	_	_		_
@@ -75440,8 +75393,8 @@ chết	V	_	_		_
 ,	CH	_	_		_
 con	N	_	_		_
 nguy	A	_	_		_
-kịch 	N	_	_		_
- Nỗi	Np	_	_		_
+kịch_	N	_	_		_
+Nỗi	Np	_	_		_
 đau	V	_	_		_
 của	E	_	_		_
 người	N	_	_		_
@@ -78023,8 +77976,7 @@ bạn_đọc	N	_	_		_
 Dân_trí	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Bé	Np	_	_		_
+Bé	Np	_	_		_
 mang	V	_	_		_
 trọng_bệnh	N	_	_		_
 lay_lắt	A	_	_		_
@@ -78341,8 +78293,7 @@ mặt	N	_	_		_
 "	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Nữ	Np	_	_		_
+Nữ	Np	_	_		_
 sinh	V	_	_		_
 8	M	_	_		_
 năm	N	_	_		_
@@ -78413,8 +78364,8 @@ tiền	N	_	_		_
 gia_đình	N	_	_		_
 chị	Nc	_	_		_
 Ngô_Thị_Kim	Np	_	_		_
-Phượng 	Np	_	_		_
- Cha	Np	_	_		_
+Phượng_	Np	_	_		_
+Cha	Np	_	_		_
 bị	V	_	_		_
 tai_biến	V	_	_		_
 ,	CH	_	_		_
@@ -80058,8 +80009,7 @@ khuya	A	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Trao	Np	_	_		_
+Trao	Np	_	_		_
 tặng	V	_	_		_
 tới	E	_	_		_
 nhân_vật	N	_	_		_
@@ -80074,8 +80024,7 @@ chết	V	_	_		_
 "	CH	_	_		_
 10	M	_	_		_
 triệu	M	_	_		_
-đồng 	N	_	_		_
- 	CH	_	_		_
+đồng_	N	_	_		_
 11	M	_	_		_
 năm	N	_	_		_
 "	CH	_	_		_
@@ -83298,8 +83247,7 @@ triệu	M	_	_		_
 đồng	Nu	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Quằn	Np	_	_		_
+Quằn	Np	_	_		_
 quại	V	_	_		_
 với	E	_	_		_
 khối_u	N	_	_		_
@@ -83696,7 +83644,7 @@ với	E	_	_		_
 Công_ty	N	_	_		_
 TNHH	Ny	_	_		_
 Grobest_Việt	Np	_	_		_
-Nam 	Np	_	_		_
+Nam_	Np	_	_		_
 ,	CH	_	_		_
 Báo_điện_tử	N	_	_		_
 trao_tặng	V	_	_		_
@@ -86191,8 +86139,7 @@ lịch	N	_	_		_
 hẹn	V	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Bố	Np	_	_		_
+Bố	Np	_	_		_
 mẹ	V	_	_		_
 bán	N	_	_		_
 máu	N	_	_		_
@@ -86487,8 +86434,6 @@ trên	E	_	_		_
 tỉnh	N	_	_		_
 .	CH	_	_		_
 
- 	M	_	_		_
- 	CH	_	_		_
 90	M	_	_		_
 suất	N	_	_		_
 học_bổng	N	_	_		_
@@ -86996,8 +86941,7 @@ Nghệ_An	Np	_	_		_
 )	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Grobest	Np	_	_		_
+Grobest	Np	_	_		_
 Việt_Nam	Np	_	_		_
 trao	V	_	_		_
 70	M	_	_		_
@@ -88787,8 +88731,6 @@ hoàn_thành	V	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	I	_	_		_
- 	CH	_	_		_
 “	CH	_	_		_
 Đất	N	_	_		_
 ,	CH	_	_		_
@@ -91173,8 +91115,7 @@ trên	E	_	_		_
 tỉnh	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Grobest	Np	_	_		_
+Grobest	Np	_	_		_
 Việt_Nam	Np	_	_		_
 trao	V	_	_		_
 230	M	_	_		_
@@ -93307,8 +93248,7 @@ Quỹ	Np	_	_		_
 nhân_ái	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Xót	Np	_	_		_
+Xót	Np	_	_		_
 xa	A	_	_		_
 cô	Nc	_	_		_
 gái	N	_	_		_
@@ -93858,8 +93798,8 @@ tuần	N	_	_		_
 tuần	N	_	_		_
 3	M	_	_		_
 tháng	N	_	_		_
-12/2017. 	M	_	_		_
- Mắc	Np	_	_		_
+12/2017._	M	_	_		_
+Mắc	Np	_	_		_
 bệnh	N	_	_		_
 tim	N	_	_		_
 ,	CH	_	_		_
@@ -94344,8 +94284,6 @@ Khánh_Hoà	Np	_	_		_
 )	CH	_	_		_
 .	CH	_	_		_
 
- 	M	_	_		_
- 	CH	_	_		_
 175	M	_	_		_
 suất	N	_	_		_
 học_bổng	N	_	_		_
@@ -95265,8 +95203,7 @@ tỉnh	N	_	_		_
 này	P	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Trao	Np	_	_		_
+Trao	Np	_	_		_
 110	M	_	_		_
 suất	N	_	_		_
 học_bổng	N	_	_		_
@@ -96886,8 +96823,7 @@ tỉnh	N	_	_		_
 Bạc_Liêu	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Trao	Np	_	_		_
+Trao	Np	_	_		_
 học_bổng	N	_	_		_
 Grobest	Np	_	_		_
 Việt_Nam	Np	_	_		_
@@ -98315,7 +98251,7 @@ bữa	N	_	_		_
 (	CH	_	_		_
 12/1/2101	M	_	_		_
 8	M	_	_		_
-_	N	_	_		_
+
 PV	Ny	_	_		_
 )	CH	_	_		_
 gia_đình	N	_	_		_
@@ -99855,8 +99791,8 @@ trong	E	_	_		_
 tuần	N	_	_		_
 3	M	_	_		_
 tháng	N	_	_		_
-12/2017. 	M	_	_		_
- Gần	Np	_	_		_
+12/2017._	M	_	_		_
+Gần	Np	_	_		_
 96	M	_	_		_
 triệu	M	_	_		_
 đồng	Nu	_	_		_
@@ -99871,8 +99807,8 @@ ung_thư	N	_	_		_
 ,	CH	_	_		_
 ông	N	_	_		_
 bị	V	_	_		_
-mù 	V	_	_		_
- Bố	N	_	_		_
+mù_	V	_	_		_
+Bố	N	_	_		_
 ung_thư	N	_	_		_
 ,	CH	_	_		_
 ông	N	_	_		_
@@ -100291,8 +100227,7 @@ ngặt_nghèo	A	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Người	Np	_	_		_
+Người	Np	_	_		_
 mẹ	N	_	_		_
 kiệt_quệ	A	_	_		_
 trước	E	_	_		_
@@ -100939,8 +100874,7 @@ Nghệ_An	Np	_	_		_
 )	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Grobest	Np	_	_		_
+Grobest	Np	_	_		_
 Việt_Nam	Np	_	_		_
 thắp	V	_	_		_
 sáng	A	_	_		_
@@ -101365,8 +101299,7 @@ tỉnh	N	_	_		_
 Bình_Định	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Trao	Np	_	_		_
+Trao	Np	_	_		_
 120	M	_	_		_
 suất	N	_	_		_
 học_bổng	N	_	_		_
@@ -102010,8 +101943,7 @@ Ninh_Bình	Np	_	_		_
 )	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Trao	Np	_	_		_
+Trao	Np	_	_		_
 120	M	_	_		_
 suất	N	_	_		_
 học_bổng	N	_	_		_
@@ -106153,7 +106085,7 @@ trồng	V	_	_		_
 người	N	_	_		_
 .	CH	_	_		_
 
- Nghẹn	V	_	_		_
+Nghẹn	V	_	_		_
 đắng	A	_	_		_
 cảnh	N	_	_		_
 mẹ	N	_	_		_
@@ -107618,8 +107550,7 @@ chị	Nc	_	_		_
 Phan_Thị_Thư	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Không	Np	_	_		_
+Không	Np	_	_		_
 nhà	N	_	_		_
 ,	CH	_	_		_
 không	R	_	_		_
@@ -108044,8 +107975,7 @@ tỉnh	N	_	_		_
 Tiền_Giang	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Grobest	Np	_	_		_
+Grobest	Np	_	_		_
 Việt_Nam	Np	_	_		_
 trao	V	_	_		_
 100	M	_	_		_
@@ -108240,8 +108170,7 @@ tỉnh	N	_	_		_
 Lâm_Đồng	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Grobest	Np	_	_		_
+Grobest	Np	_	_		_
 Việt_Nam	Np	_	_		_
 trao	V	_	_		_
 100	M	_	_		_
@@ -108779,8 +108708,7 @@ hiếu_học	V	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Trao	Np	_	_		_
+Trao	Np	_	_		_
 135	M	_	_		_
 suất	N	_	_		_
 học_bổng	N	_	_		_
@@ -109359,8 +109287,6 @@ tại	E	_	_		_
 Đồng_Nai	Np	_	_		_
 .	CH	_	_		_
 
- 	M	_	_		_
- 	CH	_	_		_
 90	M	_	_		_
 suất	N	_	_		_
 học_bổng	N	_	_		_
@@ -111628,8 +111554,6 @@ cả	T	_	_		_
 cuộc_đời	N	_	_		_
 .	CH	_	_		_
 
- 	M	_	_		_
- 	CH	_	_		_
 11	M	_	_		_
 năm	N	_	_		_
 "	CH	_	_		_
@@ -112282,8 +112206,7 @@ cảnh	N	_	_		_
 khốn_khó	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Người	Np	_	_		_
+Người	Np	_	_		_
 mẹ	N	_	_		_
 bị	V	_	_		_
 vi_trùng	N	_	_		_
@@ -112292,8 +112215,8 @@ tim	N	_	_		_
 đã	R	_	_		_
 vĩnh_viễn	V	_	_		_
 ra	R	_	_		_
-đi 	N	_	_		_
- Đau	N	_	_		_
+đi_	N	_	_		_
+Đau	N	_	_		_
 đớn	A	_	_		_
 vì	E	_	_		_
 mất	V	_	_		_
@@ -115210,8 +115133,8 @@ và	Cc	_	_		_
 tuần	N	_	_		_
 1	M	_	_		_
 tháng	N	_	_		_
-12/2017. 	M	_	_		_
- Thương	Np	_	_		_
+12/2017._	M	_	_		_
+Thương	Np	_	_		_
 mẹ	N	_	_		_
 già	A	_	_		_
 lầm_lũi	A	_	_		_
@@ -116355,7 +116278,7 @@ cháu	N	_	_		_
 nhỏ	A	_	_		_
 .	CH	_	_		_
 
- Xót	V	_	_		_
+Xót	V	_	_		_
 xa	A	_	_		_
 chàng	N	_	_		_
 trai_trẻ	N	_	_		_
@@ -116588,8 +116511,6 @@ mà	C	_	_		_
 phản_ảnh	V	_	_		_
 .	CH	_	_		_
 
- 	I	_	_		_
- 	CH	_	_		_
 "	CH	_	_		_
 Lúc	N	_	_		_
 lên_cơn	V	_	_		_
@@ -116935,8 +116856,7 @@ giai_đoạn	N	_	_		_
 cuối	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Cô	Np	_	_		_
+Cô	Np	_	_		_
 giáo	Z	_	_		_
 mầm_non	N	_	_		_
 “	CH	_	_		_
@@ -117897,8 +117817,8 @@ tại	E	_	_		_
 Sơn_La	Np	_	_		_
 và	Cc	_	_		_
 Điện	Np	_	_		_
-Biên 	Np	_	_		_
- Ở	Np	_	_		_
+Biên_	Np	_	_		_
+Ở	Np	_	_		_
 nơi	N	_	_		_
 “	M	_	_		_
 một	M	_	_		_
@@ -118659,8 +118579,7 @@ chữa	V	_	_		_
 bệnh	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Cuộc	Np	_	_		_
+Cuộc	Np	_	_		_
 đời	N	_	_		_
 khốn_khổ	A	_	_		_
 của	E	_	_		_
@@ -119021,8 +118940,7 @@ trước	E	_	_		_
 đó	P	_	_		_
 .	CH	_	_		_
 
- 	CH	_	_		_
- Bố	N	_	_		_
+Bố	N	_	_		_
 ung_thư	N	_	_		_
 ,	CH	_	_		_
 ông	N	_	_		_
@@ -120388,7 +120306,7 @@ xa_vời	A	_	_		_
 
 ..	CH	_	_		_
 
- Mẹ	N	_	_		_
+Mẹ	N	_	_		_
 vừa	R	_	_		_
 mất	V	_	_		_
 vì	E	_	_		_
@@ -120907,7 +120825,7 @@ tuần	N	_	_		_
 qua	V	_	_		_
 .	CH	_	_		_
 
- Khởi	V	_	_		_
+Khởi	V	_	_		_
 công	N	_	_		_
 công_trình	N	_	_		_
 phòng	N	_	_		_
@@ -120919,8 +120837,8 @@ thứ	N	_	_		_
 16	M	_	_		_
 tại	E	_	_		_
 Cao	Np	_	_		_
-Bằng 	Np	_	_		_
- Xót	Np	_	_		_
+Bằng_	Np	_	_		_
+Xót	Np	_	_		_
 xa	A	_	_		_
 hàng	R	_	_		_
 chục	M	_	_		_
@@ -121402,8 +121320,7 @@ tiền	N	_	_		_
 đồng	Nu	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Cháu	Np	_	_		_
+Cháu	Np	_	_		_
 bé	N	_	_		_
 11	M	_	_		_
 tháng	N	_	_		_
@@ -121412,8 +121329,8 @@ bị	V	_	_		_
 não	V	_	_		_
 úng_thuỷ	N	_	_		_
 đã	R	_	_		_
-mất 	V	_	_		_
- Thương	Np	_	_		_
+mất_	V	_	_		_
+Thương	Np	_	_		_
 cháu	N	_	_		_
 bé	N	_	_		_
 11	M	_	_		_
@@ -121775,8 +121692,7 @@ huyện	N	_	_		_
 Tân_Kỳ	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Rơi	Np	_	_		_
+Rơi	Np	_	_		_
 nước_mắt	N	_	_		_
 trước	E	_	_		_
 cảnh	N	_	_		_
@@ -122771,7 +122687,7 @@ bật	V	_	_		_
 khóc	V	_	_		_
 …	CH	_	_		_
 
- Bé	N	_	_		_
+Bé	N	_	_		_
 4	M	_	_		_
 tuổi	N	_	_		_
 nguy_kịch	A	_	_		_
@@ -124562,8 +124478,7 @@ chị	Nc	_	_		_
 Nguyễn_Thị_Hùng	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Xót	Np	_	_		_
+Xót	Np	_	_		_
 xa	A	_	_		_
 người	Nc	_	_		_
 mẹ	N	_	_		_
@@ -124646,8 +124561,6 @@ trong	E	_	_		_
 bài	N	_	_		_
 .	CH	_	_		_
 
- 	I	_	_		_
- 	CH	_	_		_
 "	CH	_	_		_
 Giờ	N	_	_		_
 em	N	_	_		_
@@ -126026,8 +125939,7 @@ xương	N	_	_		_
 quái_ác	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Xót	Np	_	_		_
+Xót	Np	_	_		_
 thương	V	_	_		_
 chàng	N	_	_		_
 trai	N	_	_		_
@@ -126597,8 +126509,7 @@ triệu	M	_	_		_
 đồng	Nu	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Thai	Np	_	_		_
+Thai	Np	_	_		_
 phụ	V	_	_		_
 mất	V	_	_		_
 con	N	_	_		_
@@ -128558,7 +128469,7 @@ năm	N	_	_		_
 đến	V	_	_		_
 .	CH	_	_		_
 
- Nỗi	N	_	_		_
+Nỗi	N	_	_		_
 buồn	A	_	_		_
 của	E	_	_		_
 cô	Nc	_	_		_
@@ -131506,8 +131417,7 @@ thương	V	_	_		_
 này	P	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Hai	Np	_	_		_
+Hai	Np	_	_		_
 cha_con	N	_	_		_
 bị	V	_	_		_
 chấn_thương	V	_	_		_
@@ -133207,8 +133117,7 @@ cuối	N	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Thương	Np	_	_		_
+Thương	Np	_	_		_
 cô	Nc	_	_		_
 gái	N	_	_		_
 trẻ	A	_	_		_
@@ -135665,8 +135574,7 @@ khép	V	_	_		_
 lại	R	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Đau	Np	_	_		_
+Đau	Np	_	_		_
 đớn	V	_	_		_
 vì	E	_	_		_
 mất	V	_	_		_
@@ -139248,8 +139156,7 @@ hai	M	_	_		_
 bố_con	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Nghẹn	Np	_	_		_
+Nghẹn	Np	_	_		_
 ngào	V	_	_		_
 cảnh	N	_	_		_
 2	M	_	_		_
@@ -140550,8 +140457,7 @@ việc	N	_	_		_
 khác	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Mẹ	Np	_	_		_
+Mẹ	Np	_	_		_
 chết	V	_	_		_
 ,	CH	_	_		_
 bố	N	_	_		_
@@ -142137,8 +142043,7 @@ tiếp_tục	V	_	_		_
 trường	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Thương	Np	_	_		_
+Thương	Np	_	_		_
 5	M	_	_		_
 chị_em	N	_	_		_
 mồ_côi	A	_	_		_
@@ -144265,8 +144170,7 @@ thuận_tiện	A	_	_		_
 hơn	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Mong	Np	_	_		_
+Mong	Np	_	_		_
 chờ	V	_	_		_
 một	M	_	_		_
 cây	Nc	_	_		_
@@ -145868,8 +145772,7 @@ quá	R	_	_		_
 nặng	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Nổ	Np	_	_		_
+Nổ	Np	_	_		_
 gas	Nb	_	_		_
 kinh_hoàng	V	_	_		_
 ,	CH	_	_		_
@@ -146302,8 +146205,7 @@ về	V	_	_		_
 nhà	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Ngã	Np	_	_		_
+Ngã	Np	_	_		_
 vào	E	_	_		_
 nồi	N	_	_		_
 cám	N	_	_		_
@@ -151962,7 +151864,7 @@ mẹ	N	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- Thương	N	_	_		_
+Thương	N	_	_		_
 bé	N	_	_		_
 8	M	_	_		_
 tuổi	N	_	_		_
@@ -152195,8 +152097,7 @@ tỉnh	N	_	_		_
 Bạc_Liêu	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Nỗi	Np	_	_		_
+Nỗi	Np	_	_		_
 đau	V	_	_		_
 mẹ	N	_	_		_
 già	A	_	_		_
@@ -156134,8 +156035,8 @@ nhà	N	_	_		_
 công_vụ	N	_	_		_
 cho	E	_	_		_
 giáo	Z	_	_		_
-viên 	N	_	_		_
- Xót	Np	_	_		_
+viên_	N	_	_		_
+Xót	Np	_	_		_
 xa	A	_	_		_
 hàng	R	_	_		_
 chục	M	_	_		_
@@ -157018,8 +156919,7 @@ năm	N	_	_		_
 2017	M	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Khánh	Np	_	_		_
+Khánh	Np	_	_		_
 thành_công_trình	V	_	_		_
 phòng	N	_	_		_
 học	V	_	_		_
@@ -157518,8 +157418,7 @@ tại	E	_	_		_
 bệnh_viện	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Đau	Np	_	_		_
+Đau	Np	_	_		_
 xót	V	_	_		_
 hoàn_cảnh	N	_	_		_
 của	E	_	_		_
@@ -164613,8 +164512,7 @@ ung_thư	N	_	_		_
 máu	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Tiếng	Np	_	_		_
+Tiếng	Np	_	_		_
 khóc	V	_	_		_
 xé	V	_	_		_
 lòng	N	_	_		_
@@ -165129,8 +165027,6 @@ cho	E	_	_		_
 con	N	_	_		_
 .	CH	_	_		_
 
- 	I	_	_		_
- 	CH	_	_		_
 "	CH	_	_		_
 Đừng	R	_	_		_
 khóc	V	_	_		_
@@ -166200,8 +166096,7 @@ tỉnh	N	_	_		_
 Cao_Bằng	Np	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Xót	Np	_	_		_
+Xót	Np	_	_		_
 xa	A	_	_		_
 hàng	R	_	_		_
 chục	M	_	_		_
@@ -169928,7 +169823,7 @@ bà	Nc	_	_		_
 Sử	Np	_	_		_
 .	CH	_	_		_
 
- Mẹ	N	_	_		_
+Mẹ	N	_	_		_
 đau_đớn	A	_	_		_
 khi	N	_	_		_
 hai	M	_	_		_
@@ -170411,8 +170306,7 @@ tuổi	N	_	_		_
 tội_nghiệp	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Số	Np	_	_		_
+Số	Np	_	_		_
 phận	N	_	_		_
 éo_le	A	_	_		_
 của	E	_	_		_
@@ -172142,7 +172036,7 @@ mắt	N	_	_		_
 đỏ_hoe	A	_	_		_
 …	CH	_	_		_
 
- Thương	N	_	_		_
+Thương	N	_	_		_
 bố_mẹ	N	_	_		_
 chạy_vạy	V	_	_		_
 từng	P	_	_		_
@@ -172696,8 +172590,7 @@ khó_khăn	N	_	_		_
 trước_mắt	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Nỗi	Np	_	_		_
+Nỗi	Np	_	_		_
 đau	V	_	_		_
 người	Nc	_	_		_
 mẹ	N	_	_		_
@@ -174226,8 +174119,8 @@ mới	R	_	_		_
 công_trình	N	_	_		_
 đầy	A	_	_		_
 ý_nghĩa	N	_	_		_
-này 	N	_	_		_
- Tưng	Np	_	_		_
+này_	N	_	_		_
+Tưng	Np	_	_		_
 bừng	V	_	_		_
 ngày	N	_	_		_
 hội	N	_	_		_
@@ -174239,8 +174132,8 @@ thứ	N	_	_		_
 7	M	_	_		_
 tại	E	_	_		_
 Yên	Np	_	_		_
-Bái 	Np	_	_		_
- Xót	Np	_	_		_
+Bái_	Np	_	_		_
+Xót	Np	_	_		_
 xa	A	_	_		_
 trẻ	A	_	_		_
 mầm_non	N	_	_		_
@@ -174323,8 +174216,7 @@ năm_học	N	_	_		_
 2017-2018	M	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Chung	Np	_	_		_
+Chung	Np	_	_		_
 tay	N	_	_		_
 giúp_đỡ	V	_	_		_
 đồng_bào	N	_	_		_
@@ -174397,8 +174289,7 @@ năm_học	N	_	_		_
 mới	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Hơn	Np	_	_		_
+Hơn	Np	_	_		_
 113	M	_	_		_
 triệu	M	_	_		_
 đồng	Nu	_	_		_
@@ -174411,8 +174302,8 @@ và	Cc	_	_		_
 đứa	Nc	_	_		_
 con	N	_	_		_
 đói	V	_	_		_
-khát 	N	_	_		_
- Cha	Np	_	_		_
+khát_	N	_	_		_
+Cha	Np	_	_		_
 mất	V	_	_		_
 vì	E	_	_		_
 ung_thư	N	_	_		_
@@ -175365,8 +175256,7 @@ tươi_sáng	A	_	_		_
 hơn	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Quảng	Np	_	_		_
+Quảng	Np	_	_		_
 Bình	Np	_	_		_
 :	CH	_	_		_
 Hơn	A	_	_		_
@@ -175382,8 +175272,8 @@ chia	V	_	_		_
 nhau	N	_	_		_
 gói	V	_	_		_
 mỳ	N	_	_		_
-tôm 	N	_	_		_
- Thương	Np	_	_		_
+tôm_	N	_	_		_
+Thương	Np	_	_		_
 cảnh	N	_	_		_
 4	M	_	_		_
 ông	Nc	_	_		_
@@ -176491,8 +176381,6 @@ tháng	N	_	_		_
 8	M	_	_		_
 .	CH	_	_		_
 
- 	I	_	_		_
- 	CH	_	_		_
 "	CH	_	_		_
 Cha_con	N	_	_		_
 bệnh	N	_	_		_
@@ -176977,8 +176865,7 @@ trong	E	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Cha	Np	_	_		_
+Cha	Np	_	_		_
 mất	V	_	_		_
 vì	E	_	_		_
 ung_thư	N	_	_		_
@@ -180300,8 +180187,7 @@ gian_nan	A	_	_		_
 vất_vả	A	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Khởi	Np	_	_		_
+Khởi	Np	_	_		_
 công	A	_	_		_
 xây_dựng	V	_	_		_
 cầu	N	_	_		_
@@ -180309,8 +180195,8 @@ thứ	N	_	_		_
 13	M	_	_		_
 tại	E	_	_		_
 Nghệ	Np	_	_		_
-An 	Np	_	_		_
- Dân	Np	_	_		_
+An_	Np	_	_		_
+Dân	Np	_	_		_
 lòng	N	_	_		_
 hồ	N	_	_		_
 mong_ước	N	_	_		_
@@ -181021,8 +180907,6 @@ học	V	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	I	_	_		_
- 	CH	_	_		_
 “	CH	_	_		_
 Cháu	N	_	_		_
 mong	V	_	_		_
@@ -182898,8 +182782,6 @@ Shinnyo-en	Np	_	_		_
 Nhật_Bản	Np	_	_		_
 .	CH	_	_		_
 
- 	CH	_	_		_
- 	CH	_	_		_
 Shinnyo-en	Nc	_	_		_
 Nhật_Bản	Np	_	_		_
 tiếp_tục	V	_	_		_
@@ -184957,8 +184839,7 @@ chữa	V	_	_		_
 bệnh	N	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Thương	Np	_	_		_
+Thương	Np	_	_		_
 bố_mẹ	N	_	_		_
 chạy_vạy	V	_	_		_
 từng	P	_	_		_
@@ -185543,8 +185424,7 @@ thời_gian	N	_	_		_
 vừa_qua	X	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Chung	Np	_	_		_
+Chung	Np	_	_		_
 tay	N	_	_		_
 giúp_đỡ	V	_	_		_
 đồng_bào	N	_	_		_
@@ -186005,8 +185885,8 @@ trong	E	_	_		_
 tuần	N	_	_		_
 2	M	_	_		_
 tháng	N	_	_		_
-8/2017. 	M	_	_		_
- Bé	N	_	_		_
+8/2017._	M	_	_		_
+Bé	N	_	_		_
 9	M	_	_		_
 tuổi	N	_	_		_
 giành_giật	V	_	_		_
@@ -186508,8 +186388,7 @@ hiểm_nghèo	A	_	_		_
 ”	CH	_	_		_
 .	CH	_	_		_
 
- 	Nc	_	_		_
- Vợ	Np	_	_		_
+Vợ	Np	_	_		_
 trẻ	A	_	_		_
 ôm	V	_	_		_
 3	M	_	_		_

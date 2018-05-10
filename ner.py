@@ -29,7 +29,7 @@ def main(train_dir, dev_dir, test_dir, lifelong_dir):
 
     x_train, y_train = load_data_and_labels(train_dir)
     print(len(x_train), 'train sequences')
-    # m.train(x_train, kb_words, y_train, x_valid, y_valid)
+    m.train(x_train, kb_words, y_train, x_valid, y_valid)
 
     # lifelong
     for path in glob("%s/*.txt" % lifelong_dir):

@@ -65,7 +65,7 @@ class Sequence(object):
 
     def tag(self, sents, kb_words):
         if self.model:
-            tagger = Tagger(self.model, self.kb_miner, preprocessor=self.p)
+            tagger = Tagger(self.model, self.kb_miner, preprocessor=self.p, lifelong_threshold=2)
             new_words = None
             new_kb = kb_words
             while new_words is None or new_words > 0:

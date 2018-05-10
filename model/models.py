@@ -49,14 +49,6 @@ class KBMiner(BaseModel):
 
 
 class SeqLabeling(BaseModel):
-    """A Keras implementation of BiLSTM-CRF for sequence labeling.
-
-    References
-    --
-    Guillaume Lample, Miguel Ballesteros, Sandeep Subramanian, Kazuya Kawakami, Chris Dyer.
-    "Neural Architectures for Named Entity Recognition". Proceedings of NAACL 2016.
-    https://arxiv.org/abs/1603.01360
-    """
 
     def __init__(self, config, embeddings=None, ntags=None):
         # build word embedding

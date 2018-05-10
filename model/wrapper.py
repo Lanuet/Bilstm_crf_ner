@@ -69,6 +69,7 @@ class Sequence(object):
             new_words = None
             new_kb = kb_words
             while new_words is None or new_words > 0:
+                print(new_words)
                 new_kb, new_words = tagger.tag(sents, kb_words)
                 if new_words > 0:
                     print("added %d words" % new_words)

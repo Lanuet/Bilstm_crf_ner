@@ -67,16 +67,15 @@ class Sequence(object):
         if self.model:
             tagger = Tagger(self.model, self.kb_miner, preprocessor=self.p, lifelong_threshold=3)
             new_words = None
-            new_kb = kb_words
             counter = 0
             while new_words is None or new_words > 0:
-                new_kb, new_words = tagger.tag(sents, new_kb)
+                kb_words, new_words = tagger.tag(sents, kb_words)
                 if new_words > 0:
                     counter += 1
                     print("added %d words" % new_words)
                 if max_retry is not None and counter > max_retry:
                     break
-            return new_kb
+            return kb_words
         else:
             raise (OSError('Could not find a model. Call load(dir_path).'))
 

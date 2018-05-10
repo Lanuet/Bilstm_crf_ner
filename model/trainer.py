@@ -53,4 +53,4 @@ class Trainer(object):
         self.model.fit_generator(generator=train_batches,
                                  steps_per_epoch=train_steps,
                                  epochs=self.training_config.max_epoch,
-                                 callbacks=callbacks)
+                                 callbacks=callbacks, verbose=2)

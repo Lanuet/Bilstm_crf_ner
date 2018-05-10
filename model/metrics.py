@@ -51,7 +51,7 @@ def get_entities(seq):
         seq (list): sequence of labels.
 
     Returns:
-        list: list of (chunk_type, chunk_start, chunk_end).
+        list: list of (ner_type, ner_start, ner_end).
 
     Example:
         >>> seq = ['B-PER', 'I-PER', 'O', 'B-LOC']

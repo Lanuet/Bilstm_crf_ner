@@ -176,10 +176,7 @@ def main(train_dir, dev_dir, test_dir):
     read_file(train_dir, counter, update_kb=True)
     read_file(dev_dir, counter)
     read_file(test_dir, counter)
-<<<<<<< HEAD
 
-=======
->>>>>>> 3bc8a4436b0609ba2dac24a11cf97fcda1638cfc
 
     print(counter)
     # print("Num sent train: %s" % num_sens)

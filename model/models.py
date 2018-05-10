@@ -1,10 +1,7 @@
 import keras.backend as K
-<<<<<<< HEAD
 from keras.layers import Dense, LSTM, Bidirectional, Embedding, Input, Dropout, Lambda, Conv1D, GlobalMaxPool1D
-=======
 from keras.layers import Dense, LSTM, Bidirectional, Embedding, Input, Dropout, Lambda, RepeatVector, Subtract, Average, \
     Conv1D, GlobalMaxPool1D
->>>>>>> 3bc8a4436b0609ba2dac24a11cf97fcda1638cfc
 from keras.layers.merge import Concatenate
 from keras.models import Model
 from keras.optimizers import Adam

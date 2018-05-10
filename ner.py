@@ -5,6 +5,7 @@ from glob import glob
 from model.reader import load_data_and_labels
 from utils import json_dump
 from model import wrapper
+import logging
 
 VOCAB_PATH = 'embedding/vocabs.json'
 EMBEDDING_PATH = 'embedding/word_embeddings.npy'
@@ -34,6 +35,7 @@ def main(train_dir, dev_dir, test_dir, lifelong_dir):
     # lifelong
     for path in glob("%s/*.txt" % lifelong_dir):
         print("testing-lifelong on %s" % path)
+        logging.debug("testing-lifelong on %s" % path)
         x = load_data_and_labels(path)[0]
         kb_words = m.tag(x, kb_words)
 

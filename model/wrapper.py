@@ -7,6 +7,7 @@ from model.models import SeqLabeling, KBMiner
 from model.preprocess import prepare_preprocessor, WordPreprocessor, filter_embeddings
 from model.tagger import Tagger
 from model.trainer import Trainer
+import logging
 
 
 class Sequence(object):
@@ -77,6 +78,7 @@ class Sequence(object):
                 if max_retry is not None and counter > max_retry:
                     break
             print("added %d words" % total_new_words)
+            logging.debug("added %d words" % total_new_words)
             return kb_words
         else:
             raise (OSError('Could not find a model. Call load(dir_path).'))

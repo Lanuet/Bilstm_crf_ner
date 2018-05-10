@@ -73,17 +73,21 @@ class Tagger(object):
         Return:
             labels_pred: list of (word, tag) for a sentence
         """
+        print("compute kb avg")
         kb_avg = self.preprocessor.transform_kb(kb_words)
         kb_avg = self.kb_miner.predict(kb_avg)
         kb_avg = kb_avg.reshape((-1,))
 
+        print("preprocess data")
         data = self.preprocessor.transform(sents, kb_avg)
         sequence_lengths = data[-1]
         sequence_lengths = np.reshape(sequence_lengths, (-1,))
+        print("predicting")
         y_pred = self.model.predict_on_batch(data)
         y_pred = np.argmax(y_pred, -1)
         y_pred = [self.preprocessor.inverse_transform(y[:l]) for y, l in zip(y_pred, sequence_lengths)]
 
+        print("normalize")
         sentences = []
         for s, labels in zip(sents, y_pred):
             sen = []
@@ -92,6 +96,7 @@ class Tagger(object):
                 sen.append((w, tag))
             sentences.append(sen)
 
+        print("update")
         new_kb, new_words = update(kb_words, sentences, min_count=self.lifelong_threshold)
 
         return new_kb, new_words

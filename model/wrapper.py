@@ -7,6 +7,7 @@ from model.models import SeqLabeling, KBMiner
 from model.preprocess import prepare_preprocessor, WordPreprocessor, filter_embeddings
 from model.tagger import Tagger
 from model.trainer import Trainer
+import logging
 
 
 class Sequence(object):
@@ -63,16 +64,21 @@ class Sequence(object):
         else:
             raise (OSError('Could not find a model. Call load(dir_path).'))
 
-    def tag(self, sents, kb_words):
+    def tag(self, sents, kb_words, max_retry=0):
         if self.model:
-            tagger = Tagger(self.model, self.kb_miner, preprocessor=self.p)
+            tagger = Tagger(self.model, self.kb_miner, preprocessor=self.p, lifelong_threshold=3)
             new_words = None
-            new_kb = kb_words
+            counter = 0
+            total_new_words = 0
             while new_words is None or new_words > 0:
-                new_kb, new_words = tagger.tag(sents, kb_words)
+                kb_words, new_words = tagger.tag(sents, kb_words)
                 if new_words > 0:
-                    print("added %d words" % new_words)
-            return new_kb, new_words
+                    counter += 1
+                    total_new_words += new_words
+                if max_retry is not None and counter > max_retry:
+                    break
+            print("added %d words" % total_new_words)
+            return kb_words
         else:
             raise (OSError('Could not find a model. Call load(dir_path).'))
 

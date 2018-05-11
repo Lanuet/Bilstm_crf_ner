@@ -1,10 +1,7 @@
 import keras.backend as K
-<<<<<<< HEAD
 from keras.layers import Dense, LSTM, Bidirectional, Embedding, Input, Dropout, Lambda, Conv1D, GlobalMaxPool1D
-=======
 from keras.layers import Dense, LSTM, Bidirectional, Embedding, Input, Dropout, Lambda, RepeatVector, Subtract, Average, \
     Conv1D, GlobalMaxPool1D
->>>>>>> 3bc8a4436b0609ba2dac24a11cf97fcda1638cfc
 from keras.layers.merge import Concatenate
 from keras.models import Model
 from keras.optimizers import Adam
@@ -53,14 +50,6 @@ class KBMiner(BaseModel):
 
 
 class SeqLabeling(BaseModel):
-    """A Keras implementation of BiLSTM-CRF for sequence labeling.
-
-    References
-    --
-    Guillaume Lample, Miguel Ballesteros, Sandeep Subramanian, Kazuya Kawakami, Chris Dyer.
-    "Neural Architectures for Named Entity Recognition". Proceedings of NAACL 2016.
-    https://arxiv.org/abs/1603.01360
-    """
 
     def __init__(self, config, embeddings=None, ntags=None):
         # build word embedding
@@ -84,12 +73,7 @@ class SeqLabeling(BaseModel):
         pre_word_feature = Concatenate()([pre_word_embeddings, kb_word_avg])
         pre_word_feature = Dense(config.pre_word_feature_size, activation="tanh")(pre_word_feature)
 
-
-        pos_embed_weights = [
-            np.zeros([1, config.pos_vocab_size-1]),  # padding
-            np.identity(config.pos_vocab_size-1)
-        ]
-        pos_embed_weights = np.concatenate(pos_embed_weights)
+        pos_embed_weights = np.load("embedding/pos_embeddings.npy")
         pos_ids = Input(batch_shape=(None, None), dtype='int32')
         pos_embeddings = Embedding(input_dim=pos_embed_weights.shape[0],
                                     output_dim=pos_embed_weights.shape[1],

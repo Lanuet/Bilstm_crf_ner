@@ -5,6 +5,7 @@ from glob import glob
 from model.reader import load_data_and_labels
 from utils import json_dump
 from model import wrapper
+import logging
 
 VOCAB_PATH = 'embedding/vocabs.json'
 EMBEDDING_PATH = 'embedding/word_embeddings.npy'
@@ -25,16 +26,16 @@ def main(train_dir, dev_dir, test_dir, lifelong_dir):
         print(k, len(v))
 
     # Use pre-trained word embeddings
-    m = wrapper.Sequence(max_epoch=20, embeddings=embeddings, vocab_init=vocabs, log_dir="log")
+    m = wrapper.Sequence(max_epoch=20, batch_size=40,embeddings=embeddings, vocab_init=vocabs, log_dir="log")
 
     x_train, y_train = load_data_and_labels(train_dir)
     print(len(x_train), 'train sequences')
     m.train(x_train, kb_words, y_train, x_valid, y_valid)
 
     # lifelong
-    for path in glob("%s/*.muc" % lifelong_dir):
+    for path in glob("%s/*.txt" % lifelong_dir):
         print("testing-lifelong on %s" % path)
-        x = load_data_and_labels(path)
+        x = load_data_and_labels(path)[0]
         kb_words = m.tag(x, kb_words)
 
     m.eval(x_test, kb_words, y_test)

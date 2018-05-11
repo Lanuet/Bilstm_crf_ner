@@ -82,7 +82,7 @@ class Tagger(object):
         data = self.preprocessor.transform(sents, kb_avg)
         sequence_lengths = data[-1]
         sequence_lengths = np.reshape(sequence_lengths, (-1,))
-        y_pred = self.model.predict(data, len(sequence_lengths))
+        y_pred = self.model.predict(data, 100)
         y_pred = np.argmax(y_pred, -1)
         y_pred = [self.preprocessor.inverse_transform(y[:l]) for y, l in zip(y_pred, sequence_lengths)]
 
